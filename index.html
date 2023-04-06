@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Title</title>
+	<title>Rare Character release tracker</title>
 	<!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
 </head>
 <style>
@@ -26,32 +26,54 @@
 
 	/* Card styling for each result */
 	.card {
-  		border: 1px solid #ccc;
-  		border-radius: 5px;
-  		background-color: #f2f2f2;
-  		padding: 10px;
-	}
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-image {
+  margin-right: 10px;
+  width: 100px;
+}
+
+.card-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 </style>
 <body>
-	<h1>Item List</h1>
+	<h1>Rare Character release tracker</h1>
+	<div id="type-links">
+		<a href="#" onclick="filterItemsByType('')">All</a>
+		<a href="#" onclick="filterItemsByType('Bourbon')">Bourbon</a>
+		<a href="#" onclick="filterItemsByType('Rye')">Rye</a>
+		<a href="#" onclick="filterItemsByType('Exceptional')">Exceptional</a>
+	</div>
+	
 	<div class="filterBar">
-		<label for="type-filter">Type:</label>
-		<select id="type-filter" onchange="filterItems()">
-			<option value="">All</option>
-			<option value="Bourbon">Bourbon</option>
-			<option value="Rye">Rye</option>
-			<option value="Exceptional">Exceptional</option>
-		</select>
-
 		<label for="finish-filter">Finish:</label>
 		<select id="finish-filter" onchange="filterItems()">
   			<option value="">All</option>
 			<option value="None">No Finish</option>
 			<option value="Amburana">Amburana</option>
+			<option value="Balsamo">Balsamo</option>
+			<option value="Cognac">Cognac</option>
 			<option value="Eucalipto">Eucalipto</option>
+			<option value="Jaqueira">Jaqueira</option>
 			<option value="Madeira">Madeira</option>
   			<option value="Oloroso">Oloroso</option>
+			<option value="PX Sherry">PX Sherry</option>
   			<option value="Rum">Rum</option>
+			<option value="White Port">White Port</option>
 		</select>
 	</div>
 
