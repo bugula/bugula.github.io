@@ -1,0 +1,81 @@
+fetch('releases.json')
+  .then(response => response.json())
+  .then(data => {
+    // Use the data array here
+    console.log(data);
+    items = data;
+    updateItemList(items);
+  })
+  .catch(error => {
+    console.error(error);
+  });
+
+var itemList = document.getElementById("item-list");
+
+function updateItemList(updatedItems) {
+  itemList.innerHTML = "";
+
+  updatedItems.sort((a, b) => a.name.localeCompare(b.name));
+
+  for (var i = 0; i < updatedItems.length; i++) {
+    var item = updatedItems[i];
+    var itemDiv = document.createElement("div");
+    itemDiv.classList.add("card");
+    itemDiv.innerHTML = `
+      <h2>${item.name}</h2>
+      <div class="card-content">
+        <div class="card-image">
+          ${item.image ? `<img src="images/${item.image}" width="100" height="100">` : ""}
+        </div>
+        <div class="card-text">
+          ${item.barrel}<br>
+          ${item.type}<br>
+          ${item.finish}
+        </div>
+      </div>
+      <a href="javascript:viewItemDetails(${item.id})">View Details</a>
+    `;
+    itemList.appendChild(itemDiv);
+
+    // Add click event listener to the card element
+    itemDiv.addEventListener("click", function() {
+      viewItemDetails(item.id);
+    });
+  }
+}
+
+function filterItems() {
+  var finishFilter = document.getElementById("finish-filter").value;
+
+  if (finishFilter === "") {
+    // Show all items if no filters are selected
+    showAllItems();
+  } else {
+    // Filter items based on selected finish
+    var filteredItems = items.filter(function (item) {
+      return item.finish.toLowerCase().indexOf(finishFilter.toLowerCase()) !== -1;
+    });
+    updateItemList(filteredItems);
+  }
+}
+
+function filterItemsByType(type) {
+  var filteredItems;
+  if (type === '') {
+    filteredItems = items;
+  } else {
+    filteredItems = items.filter(function(item) {
+      return item.type === type;
+    });
+  }
+  updateItemList(filteredItems);
+}
+
+function showAllItems() {
+  updateItemList(items);
+}
+
+// GENERATE LINK TO DETAILS PAGE
+function viewItemDetails(itemId) {
+  window.location.href = "details.html?id=" + itemId;
+}
