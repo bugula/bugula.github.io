@@ -1,14 +1,21 @@
+let items;
+
 fetch('releases.json')
   .then(response => response.json())
   .then(data => {
-    // Use the data array here
-    console.log(data);
     items = data;
     updateItemList(items);
   })
   .catch(error => {
     console.error(error);
   });
+
+function updateItemList(updatedItems) {
+  // ...
+}
+
+// Export the items array
+export { items };
 
 var itemList = document.getElementById("item-list");
 
