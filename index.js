@@ -4749,7 +4749,7 @@ function updateItemList(updatedItems) {
 
 	var count = updatedItems.length;
 	var countDiv = document.createElement("div");
-	countDiv.innerHTML = "Total Items: " + count;
+	countDiv.innerHTML = "Showing " + count + " items";
 	itemList.appendChild(countDiv);
 
 	for (var i = 0; i < updatedItems.length; i++) {
