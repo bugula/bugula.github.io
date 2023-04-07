@@ -4713,7 +4713,7 @@ for (var i = 0; i < items.length; i++) {
 	})(item));
 	
 	var countDisplay = document.getElementById("count-display");
-	countDisplay.innerHTML = "Total items: " + itemCount;
+	countDisplay.innerHTML = "Release count: " + itemCount;
 }
 
 function filterItems() {
@@ -4778,7 +4778,7 @@ function updateItemList(updatedItems) {
 		itemList.appendChild(itemDiv);
 	}
 	var countDisplay = document.getElementById("count-display");
-	countDisplay.innerHTML = "Total items: " + itemCount;
+	countDisplay.innerHTML = "Release count: " + itemCount;
 }
 
 
