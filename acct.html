@@ -1,33 +1,24 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>Rare Character release tracker</title>
-	<link rel="stylesheet" type="text/css" href="styles.css">
-</head>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Firebase Example</title>
+  </head>
+  <body>
+    <div id="firebaseui-auth-container">
+      <!-- This is where the Login ui will load -->
+    </div>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-app.js"></script>
 
-<body>
-	<h1>Rare Character release tracker</h1>
-    <form>
-		<label for="email">Email:</label>
-		<input type="email" id="email" name="email" required>
-		<br>
-		<label for="password">Password:</label>
-		<input type="password" id="password" name="password" required>
-		<br>
-		<button type="submit" id="create-account">Create Account</button>
-		<button type="submit" id="login">Log In</button>
-	  </form>
-
-	<script type="module">
-		// Import the functions you need from the SDKs you need
-		import { initializeApp } from "https://www.gstatic.com/firebasejs/9.19.1/firebase-app.js";
-		import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.19.1/firebase-analytics.js";
-		// TODO: Add SDKs for Firebase products that you want to use
-		// https://firebase.google.com/docs/web/setup#available-libraries
-	  
-		// Your web app's Firebase configuration
-		// For Firebase JS SDK v7.20.0 and later, measurementId is optional
-		const firebaseConfig = {
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+    https://firebase.google.com/docs/web/setup#config-web-app -->
+    <script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-auth.js"></script>
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
 		  apiKey: "AIzaSyDmIGjNxfcK45lhTAlk3nFRDWE_rebO4VU",
 		  authDomain: "rare-character-release-tracker.firebaseapp.com",
 		  projectId: "rare-character-release-tracker",
@@ -36,13 +27,16 @@
 		  appId: "1:156384989106:web:fdb0a35be654b486ae9eab",
 		  measurementId: "G-GKGWDGS941"
 		};
-	  
-		// Initialize Firebase
-		const app = initializeApp(firebaseConfig);
-		const analytics = getAnalytics(app);
-	</script>
-	<script src="https://www.gstatic.com/firebasejs/9.6.2/firebase-app.js"></script>
-	<script src="https://www.gstatic.com/firebasejs/9.6.2/firebase-auth.js"></script>
-	<script src="app.js"></script>
-</body>
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+    <!-- Firebase UI -->
+	<script src="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.js"></script>
+	<link
+		type="text/css"
+		rel="stylesheet"
+		href="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.css"
+	/>
+	<script src="./auth.js"></script>
+  </body>
 </html>

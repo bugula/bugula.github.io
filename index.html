@@ -7,14 +7,15 @@
 
 <body>
 	<h1>Rare Character release tracker</h1>
+	<div class="container">
+		<div class="filterBar">
 	<div id="type-links">
-		<a href="#" onclick="filterItemsByType('')">All</a>
-		<a href="#" onclick="filterItemsByType('Bourbon')">Bourbon</a>
-		<a href="#" onclick="filterItemsByType('Rye')">Rye</a>
+		<a href="#" onclick="filterItemsByType('')">All</a><br>
+		<a href="#" onclick="filterItemsByType('Bourbon')">Bourbon</a><br>
+		<a href="#" onclick="filterItemsByType('Rye')">Rye</a><br>
 		<a href="#" onclick="filterItemsByType('Exceptional')">Exceptional</a>
 	</div>
-	
-	<div class="filterBar">
+		<br><br>
 		<label for="finish-filter">Finish:</label>
 		<select id="finish-filter" onchange="filterItems()">
   			<option value="">All</option>
@@ -33,6 +34,7 @@
 	</div>
 
 	<div id="item-list"></div>
+	</div>
 	<script src="index.js"></script>
 
 	<script type="module">
