@@ -1,9 +1,9 @@
 // app.js
 // Initialize Firebase
 firebase.initializeApp({
-    apiKey: "YOUR_API_KEY",
-    authDomain: "YOUR_AUTH_DOMAIN",
-    projectId: "YOUR_PROJECT_ID",
+    apiKey: "AIzaSyDmIGjNxfcK45lhTAlk3nFRDWE_rebO4VU",
+    authDomain: "rare-character-release-tracker.firebaseapp.com",
+    projectId: "rare-character-release-tracker",
   });
   
   // Get a reference to the Firebase Authentication service
