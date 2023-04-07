@@ -32,7 +32,7 @@ for (var i = 0; i < items.length; i++) {
 	});
 }
 
-function filterItems() {
+function filterItems(finish) {
 	var finishFilter = document.getElementById("finish-filter").value;
   
 	if (finishFilter === "") {
