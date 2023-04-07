@@ -4648,12 +4648,21 @@ if (release) {
             <h2>${item.name}</h2>
             <div class="card-content">
                 <div class="card-image">
-                    ${item.image ? `<img src="images/${item.image}" width="100" height="100">` : ""}
+                    ${item.image ? `<img src="images/${item.image}" height="300">` : ""}
                 </div>
                 <div class="card-text">
-                    ${item.barrel}<br>
-                    ${item.type}<br>
-                    ${item.finish}
+                    Barrel: ${item.barrel}<br>
+                    Type: ${item.type}<br>
+                    Finish: ${item.finish}<br>
+					Age: ${item.age}<br>
+					Proof: ${item.proof}<br>
+					Mashbill: ${item.mashbill}<br>
+					Source: ${item.source}<br>
+					Distilled on: ${item.distilled}<br>
+					Bottled on: ${item.bottled}<br>
+					Retail price: ${item.price}<br>
+					Release state: ${item.state}<br>
+					Retail partner: ${item.retail}
                 </div>
             </div>
             <a href="index.html">Back</a>
@@ -4765,7 +4774,6 @@ function updateItemList(updatedItems) {
 		itemList.appendChild(itemDiv);
 	  }
 }
-
 
 // GENERATE LINK TO DETAILS PAGE
 function viewItemDetails(itemId) {
