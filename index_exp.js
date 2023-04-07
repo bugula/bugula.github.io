@@ -1,5 +1,5 @@
-import { releases, items } from './releases.mjs';
-console.log('releases =>', releases);
+import items from './releases.mjs';
+console.log('items =>', items);
 
 var itemList = document.getElementById("item-list");
 

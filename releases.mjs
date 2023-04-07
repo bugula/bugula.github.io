@@ -1,4 +1,4 @@
-const releases = [
+const items = [
 	{
 		id: 1,
 		name: "@WhiskyVegas",
@@ -4554,4 +4554,4 @@ const releases = [
 	}
 ];
 
-export default releases;
+export default items;
