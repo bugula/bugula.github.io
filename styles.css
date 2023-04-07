@@ -58,13 +58,85 @@ select {
 	margin-top: 0px;
 }
 
-.finish-tag {
+.finish-tag.madeira {
 	position: absolute;
 	top: 0;
 	right: 0;
 	padding: 4px 8px;
 	border-radius: 4px;
-	background-color: #ffa500;
+	background-color: #b4350f;
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.finish-tag.amburana {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 4px 8px;
+	border-radius: 4px;
+	background-color: #613a08;
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.finish-tag.oloroso {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 4px 8px;
+	border-radius: 4px;
+	background-color: #420936;
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.finish-tag.eucalipto {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 4px 8px;
+	border-radius: 4px;
+	background-color: #2d4b1c;
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.finish-tag.balsamo {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 4px 8px;
+	border-radius: 4px;
+	background-color: #2d4b1c;
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.finish-tag.cognac {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 4px 8px;
+	border-radius: 4px;
+	background-color: #2d4b1c;
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.finish-tag.jaqueria {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 4px 8px;
+	border-radius: 4px;
+	background-color: #2d4b1c;
 	color: #fff;
 	font-size: 12px;
 	font-weight: bold;

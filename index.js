@@ -4678,6 +4678,7 @@ var countElement = document.createElement("div");
 itemList.insertBefore(countElement, itemList.firstChild);
 items.sort((a, b) => a.name.localeCompare(b.name));
 itemCount = items.length;
+
 for (var i = 0; i < items.length; i++) {
 	var item = items[i];
 	var itemDiv = document.createElement("div");
@@ -4692,7 +4693,7 @@ for (var i = 0; i < items.length; i++) {
 	<div class="card-header header">${item.name}</div>
     ${item.barrel}<br>
     ${item.type}
-	<div class="finish-tag">${item.finish}</div>
+	<div class="finish-tag ${item.finish.toLowerCase()}">${item.finish}</div>
 	</div>
 	</div>
     <!-- <a href="javascript:viewItemDetails(${item.id})">View Details</a> -->
@@ -4764,7 +4765,7 @@ function updateItemList(updatedItems) {
 				<div class="card-header header">${item.name}</div>
     			${item.barrel}<br>
     			${item.type}
-    			<div class="finish-tag">${item.finish}</div>
+    			<div class="finish-tag ${item.finish.toLowerCase()}">${item.finish}</div>
 			</div>
 			</div>
     		<!-- <a href="javascript:viewItemDetails(${item.id})">View Details</a> -->
