@@ -4691,8 +4691,8 @@ for (var i = 0; i < items.length; i++) {
 	<div class="card-text">
 	<div class="card-header header">${item.name}</div>
     ${item.barrel}<br>
-    ${item.type}<br>
-    ${item.finish}
+    ${item.type}
+	<div class="finish-tag">${item.finish}</div>
 	</div>
 	</div>
     <!-- <a href="javascript:viewItemDetails(${item.id})">View Details</a> -->
@@ -4763,8 +4763,8 @@ function updateItemList(updatedItems) {
 			<div class="card-text">
 				<div class="card-header header">${item.name}</div>
     			${item.barrel}<br>
-    			${item.type}<br>
-    			${item.finish}
+    			${item.type}
+    			<div class="finish-tag">${item.finish}</div>
 			</div>
 			</div>
     		<!-- <a href="javascript:viewItemDetails(${item.id})">View Details</a> -->

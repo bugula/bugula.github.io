@@ -40,6 +40,7 @@ select {
 .card-content {
 	display: flex;
 	flex-direction: row;
+	position: relative;
 }
 
 .card-image {
@@ -55,6 +56,18 @@ select {
 	font-size: 16px;
 	line-height: 1.5;
 	margin-top: 0px;
+}
+
+.finish-tag {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 4px 8px;
+	border-radius: 4px;
+	background-color: #ffa500;
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
 }
 
 .card:hover {
