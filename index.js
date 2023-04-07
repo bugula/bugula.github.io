@@ -4671,11 +4671,6 @@ if (release) {
             <a href="index.html">Back</a>
         `;
         itemList.appendChild(itemDiv);
-
-        // Add click event listener to the card element
-        itemDiv.addEventListener("click", function() {
-            viewItemDetails(item.id);
-        });
     }
 } else {
 var itemList = document.getElementById("item-list");
@@ -4776,6 +4771,13 @@ function updateItemList(updatedItems) {
 			</div>
 			`;
 		itemList.appendChild(itemDiv);
+
+		// Add click event listener to the card element
+		itemDiv.addEventListener("click", (function (itemCopy) {
+			return function () {
+				viewItemDetails(itemCopy.id);
+		}
+	})(item));
 	}
 	var countDisplay = document.getElementById("count-display");
 	countDisplay.innerHTML = "Release count: " + itemCount;

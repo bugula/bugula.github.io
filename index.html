@@ -7,18 +7,18 @@
 
 <body>
 	<p class="pgTitle">Rare Character Tracker</p>
-	<div id="count-display"></div>
+	<div id="count-display" class="bodyCopy"></div>
 	<br>
 	<div class="container">
 		<div class="filterBar">
-	<div id="type-links">
+	<div id="type-links" class="bodyCopy">
 		<a href="#" onclick="filterItemsByType('')">All</a><br>
 		<a href="#" onclick="filterItemsByType('Bourbon')">Bourbon</a><br>
 		<a href="#" onclick="filterItemsByType('Rye')">Rye</a><br>
 		<a href="#" onclick="filterItemsByType('Exceptional')">Exceptional</a>
 	</div>
 		<br><br>
-		<label for="finish-filter">Finish:</label>
+		<label for="finish-filter" class="bodyCopy">Finish:</label>
 		<select id="finish-filter" onchange="filterItems()">
   			<option value="">All</option>
 			<option value="None">No Finish</option>
