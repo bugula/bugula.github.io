@@ -32,20 +32,17 @@ for (var i = 0; i < items.length; i++) {
 	});
 }
 
-function filterItems() {
-	var finishFilter = document.getElementById("finish-filter").value;
-  
-	if (finishFilter === "") {
-	  // Show all items if no filters are selected
-	  showAllItems();
-	} else {
-	  // Filter items based on selected finish
-	  var filteredItems = items.filter(function(item) {
-		return item.finish.toLowerCase().indexOf(finishFilter.toLowerCase()) !== -1;
-	  });
-	  updateItemList(filteredItems);
-	}
-  }
+function filterItemsByFinish(finish) {
+    var filteredItems;
+    if (finish === '') {
+        filteredItems = items;
+    } else {
+        filteredItems = items.filter(function(item) {
+            return item.finish === finish;
+        });
+    }
+    updateItemList(filteredItems);
+}
 
 function filterItemsByType(type) {
 	var filteredItems;
