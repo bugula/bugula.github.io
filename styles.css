@@ -118,6 +118,18 @@ select {
 	font-weight: bold;
 }
 
+.finish-tag.barbados-rum {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 4px 8px;
+	border-radius: 4px;
+	background-color: #2d4b1c;
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+}
+
 .finish-tag.cognac {
 	position: absolute;
 	top: 0;
@@ -131,6 +143,42 @@ select {
 }
 
 .finish-tag.jaqueria {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 4px 8px;
+	border-radius: 4px;
+	background-color: #2d4b1c;
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.finish-tag.jamaican-rum {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 4px 8px;
+	border-radius: 4px;
+	background-color: #2d4b1c;
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.finish-tag.px-sherry {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 4px 8px;
+	border-radius: 4px;
+	background-color: #2d4b1c;
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.finish-tag.white-port {
 	position: absolute;
 	top: 0;
 	right: 0;
