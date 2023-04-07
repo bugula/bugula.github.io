@@ -4551,6 +4551,78 @@ var items = [
 		state: "",
 		retail: "",
 		image: ""
+	},
+
+	{
+		id: 254,
+		name: "The Rite Selection",
+		type: "Bourbon",
+		barrel: "MAD-B-09",
+		age: "6yrs 7mos",
+		proof: "114.5",
+		finish: "Madeira",
+		mashbill: "",
+		source: "",
+		distilled: "",
+		bottled: "",
+		price: "$84.99",
+		state: "NJ",
+		retail: "Buy Rite",
+		image: ""
+	},
+
+	{
+		id: 255,
+		name: "Joe Canal's / Benash Liquors",
+		type: "Bourbon",
+		barrel: "OLS-B-03",
+		age: "6yrs 5mos",
+		proof: "112.06",
+		finish: "Oloroso",
+		mashbill: "65/35",
+		source: "",
+		distilled: "",
+		bottled: "",
+		price: "$89.99",
+		state: "NJ",
+		retail: "Joe Canal's & Benash Liquors",
+		image: ""
+	},
+
+	{
+		id: 256,
+		name: "The Rite Selection",
+		type: "Rye",
+		barrel: "KRY-549",
+		age: "6yrs 6mos",
+		proof: "121.18",
+		finish: "",
+		mashbill: "95/5",
+		source: "Bardstown",
+		distilled: "",
+		bottled: "",
+		price: "$84.99",
+		state: "NJ",
+		retail: "Buy Rite",
+		image: ""
+	},
+
+	{
+		id: 257,
+		name: "Joe Canal's / Benash Liquors",
+		type: "Rye",
+		barrel: "KRY-518",
+		age: "6yrs 7mos",
+		proof: "115.18",
+		finish: "",
+		mashbill: "95/5",
+		source: "Bardstown",
+		distilled: "",
+		bottled: "",
+		price: "$89.99",
+		state: "NJ",
+		retail: "Joe Canal's & Benash Liquors",
+		image: ""
 	}
 ];
 
@@ -4595,7 +4667,9 @@ if (release) {
     }
 } else {
 var itemList = document.getElementById("item-list");
-
+var countElement = document.createElement("div");
+countElement.innerHTML = `Showing ${items.length} items`;
+itemList.insertBefore(countElement, itemList.firstChild);
 items.sort((a, b) => a.name.localeCompare(b.name));
 
 for (var i = 0; i < items.length; i++) {
@@ -4603,6 +4677,7 @@ for (var i = 0; i < items.length; i++) {
 	var itemDiv = document.createElement("div");
 	itemDiv.classList.add("card");
 	itemDiv.innerHTML = `
+	
     <h2>${item.name}</h2>
 	<div class="card-content">
 	<div class="card-image">
@@ -4620,9 +4695,11 @@ for (var i = 0; i < items.length; i++) {
 	itemList.appendChild(itemDiv);
 
 	// Add click event listener to the card element
-	itemDiv.addEventListener("click", function() {
-		viewItemDetails(itemId);
-	});
+	itemDiv.addEventListener("click", (function(itemCopy) {
+		return function() {
+			viewItemDetails(itemCopy.id);
+		}
+	})(item));
 }
 
 function filterItems() {
@@ -4660,6 +4737,11 @@ function showAllItems() {
 function updateItemList(updatedItems) {
 	var itemList = document.getElementById("item-list");
 	itemList.innerHTML = "";
+
+	var count = updatedItems.length;
+	var countDiv = document.createElement("div");
+	countDiv.innerHTML = "Total Items: " + count;
+	itemList.appendChild(countDiv);
 
 	for (var i = 0; i < updatedItems.length; i++) {
 		var item = updatedItems[i];
