@@ -4626,6 +4626,9 @@ var items = [
 	}
 ];
 
+// Set item count
+var itemCount = 0;
+
 // Check for id parameter in URL
 var urlParams = new URLSearchParams(window.location.search);
 var release = urlParams.get('id');
@@ -4639,7 +4642,7 @@ if (release) {
     // Display filtered items
     var itemList = document.getElementById("item-list");
     itemList.innerHTML = "";
-
+	
     for (var i = 0; i < filteredItems.length; i++) {
         var item = filteredItems[i];
         var itemDiv = document.createElement("div");
@@ -4677,28 +4680,27 @@ if (release) {
 } else {
 var itemList = document.getElementById("item-list");
 var countElement = document.createElement("div");
-countElement.innerHTML = `Showing ${items.length} items`;
 itemList.insertBefore(countElement, itemList.firstChild);
 items.sort((a, b) => a.name.localeCompare(b.name));
-
+itemCount = items.length;
 for (var i = 0; i < items.length; i++) {
 	var item = items[i];
 	var itemDiv = document.createElement("div");
 	itemDiv.classList.add("card");
 	itemDiv.innerHTML = `
 	
-    <h2>${item.name}</h2>
 	<div class="card-content">
 	<div class="card-image">
         ${item.image ? `<img src="images/${item.image}" width="100" height="100">` : ""}
     </div>
 	<div class="card-text">
+	<div class="card-header header">${item.name}</div>
     ${item.barrel}<br>
     ${item.type}<br>
     ${item.finish}
 	</div>
 	</div>
-    <a href="javascript:viewItemDetails(${item.id})">View Details</a>
+    <!-- <a href="javascript:viewItemDetails(${item.id})">View Details</a> -->
 	</div>
 	`;
 	itemList.appendChild(itemDiv);
@@ -4709,6 +4711,9 @@ for (var i = 0; i < items.length; i++) {
 			viewItemDetails(itemCopy.id);
 		}
 	})(item));
+	
+	var countDisplay = document.getElementById("count-display");
+	countDisplay.innerHTML = "Total items: " + itemCount;
 }
 
 function filterItems() {
@@ -4746,10 +4751,9 @@ function showAllItems() {
 function updateItemList(updatedItems) {
 	var itemList = document.getElementById("item-list");
 	itemList.innerHTML = "";
-
+	itemCount = updatedItems.length;
 	var count = updatedItems.length;
 	var countDiv = document.createElement("div");
-	countDiv.innerHTML = "Showing " + count + " items";
 	itemList.appendChild(countDiv);
 
 	for (var i = 0; i < updatedItems.length; i++) {
@@ -4757,23 +4761,26 @@ function updateItemList(updatedItems) {
 		var itemDiv = document.createElement("div");
 		itemDiv.classList.add("card");
 		itemDiv.innerHTML = `
-    		<h2>${item.name}</h2>
 			<div class="card-content">
 			<div class="card-image">
         		${item.image ? `<img src="images/${item.image}" width="100" height="100">` : ""}
     		</div>
 			<div class="card-text">
+				<div class="card-header header">${item.name}</div>
     			${item.barrel}<br>
     			${item.type}<br>
     			${item.finish}
 			</div>
 			</div>
-    		<a href="javascript:viewItemDetails(${item.id})">View Details</a>
+    		<!-- <a href="javascript:viewItemDetails(${item.id})">View Details</a> -->
 			</div>
 			`;
 		itemList.appendChild(itemDiv);
-	  }
+	}
+	var countDisplay = document.getElementById("count-display");
+	countDisplay.innerHTML = "Total items: " + itemCount;
 }
+
 
 // GENERATE LINK TO DETAILS PAGE
 function viewItemDetails(itemId) {
