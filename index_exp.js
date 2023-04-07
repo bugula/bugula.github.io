@@ -32,7 +32,7 @@ for (var i = 0; i < items.length; i++) {
 	});
 }
 
-function filterItems(finish) {
+function filterItems() {
 	var finishFilter = document.getElementById("finish-filter").value;
   
 	if (finishFilter === "") {
@@ -40,12 +40,12 @@ function filterItems(finish) {
 	  showAllItems();
 	} else {
 	  // Filter items based on selected finish
-	  var filteredItems = items.filter(function (item) {
+	  var filteredItems = items.filter(function(item) {
 		return item.finish.toLowerCase().indexOf(finishFilter.toLowerCase()) !== -1;
 	  });
 	  updateItemList(filteredItems);
 	}
-}
+  }
 
 function filterItemsByType(type) {
 	var filteredItems;
