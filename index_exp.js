@@ -1,4 +1,4 @@
-import releases from './releases.js';
+import releases from './releases.mjs';
 console.log('releases =>', releases);
 
 var itemList = document.getElementById("item-list");
