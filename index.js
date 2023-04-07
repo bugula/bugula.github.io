@@ -4621,7 +4621,7 @@ for (var i = 0; i < items.length; i++) {
 
 	// Add click event listener to the card element
 	itemDiv.addEventListener("click", function() {
-		viewItemDetails(item.id);
+		viewItemDetails(itemId);
 	});
 }
 
