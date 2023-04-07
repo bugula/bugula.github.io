@@ -17,21 +17,11 @@
 	</div>
 	
 	<div class="filterBar">
-		<label for="finish-filter">Finish:</label>
-		<select id="finish-filter" onchange="filterItems()">
-  			<option value="">All</option>
-			<option value="None">No Finish</option>
-			<option value="Amburana">Amburana</option>
-			<option value="Balsamo">Balsamo</option>
-			<option value="Cognac">Cognac</option>
-			<option value="Eucalipto">Eucalipto</option>
-			<option value="Jaqueira">Jaqueira</option>
-			<option value="Madeira">Madeira</option>
-  			<option value="Oloroso">Oloroso</option>
-			<option value="PX Sherry">PX Sherry</option>
-  			<option value="Rum">Rum</option>
-			<option value="White Port">White Port</option>
-		</select>
+		<label for="finish-filter">Filter by Finish:</label>
+<select id="finish-filter" onchange="filterByFinish()">
+  <option value="">All</option>
+  ${getFinishOptions()} 
+</select>
 	</div>
 
 	<div id="item-list"></div>
