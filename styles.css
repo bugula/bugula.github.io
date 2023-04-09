@@ -16,6 +16,7 @@
 	grid-gap: 10px;
 	text-align: center;
 	padding: 20px;
+	clear: both;
 }
 
 .card {
