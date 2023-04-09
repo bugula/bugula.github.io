@@ -161,19 +161,14 @@
 	cursor: pointer;
 }
 
-
+#open-button {
+	float: right;
+	margin-right: 20px;
+}
 
 
 /* Filter drawer */
-.filterBar {
-	padding: 10px;
-	border-bottom: 1px solid #ccc;
-	border-radius: 10px;
-	background-color: rgb(253, 226, 167);
-	display: inline-block;
-	margin-right: 20px;
-	height: fit-content;
-}
+
 
 select {
 	display: block;
@@ -181,8 +176,8 @@ select {
 	width: 100%;
 	padding: 10px;
 	border-radius: 5px;
-	border: none;
 	background-color: #fff;
+	border: 1px solid #ccc
 }
 
 .filterDrawer {
@@ -191,6 +186,7 @@ select {
   right: -300px;
   height: 100%;
   width: 300px;
+  background-color: #fff;
   transition: right 0.5s ease-in-out;
   z-index: 2;
 }
