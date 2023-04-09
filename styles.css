@@ -15,6 +15,7 @@
 	grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 	grid-gap: 10px;
 	text-align: center;
+	padding: 20px;
 }
 
 .card {
@@ -290,6 +291,27 @@ select {
 
 
 
+.utility {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 50px;
+	background-color: black;
+}
+
+.hero {
+	top: 50px;
+	left: 0;
+	width: 100%;
+	height: 300px;
+	background-color: blue;
+	background-image: url("images/1_barrels.jpg");
+	background-size: cover;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+
 /* Text styles */
 .pgTitle {
 	font-family: PublicSans;
@@ -297,6 +319,7 @@ select {
 	font-weight: bold;
 	margin-top: 0;
 	margin-bottom: 0;
+	color: white;
 }
 
 .bodyCopy {
@@ -306,4 +329,6 @@ select {
 
 body {
 	background-color: #ece1c8;
+	margin: 0;
+	padding: 0;
 }
