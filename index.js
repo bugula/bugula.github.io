@@ -14,7 +14,8 @@ var items = [
 		price: "",
 		state: "NV",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -24,7 +25,7 @@ var items = [
 		barrel: "RIO-289",
 		age: "6yrs 4mos",
 		proof: "116.62",
-		finish: "None",
+		finish: "",
 		mashbill: "75/21/4",
 		source: "MGP",
 		distilled: "",
@@ -32,7 +33,8 @@ var items = [
 		price: "",
 		state: "DC",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -42,7 +44,7 @@ var items = [
 		barrel: "I21-06",
 		age: "4yrs 4mos",
 		proof: "116.6",
-		finish: "None",
+		finish: "",
 		mashbill: "",
 		source: "MGP",
 		distilled: "",
@@ -50,7 +52,8 @@ var items = [
 		price: "$79.95",
 		state: "CA",
 		retail: "Top Bourbon",
-		image: "i21-06.jpg"
+		image: "i21-06.jpg",
+		label: ""
 	},
 
 	{
@@ -60,7 +63,7 @@ var items = [
 		barrel: "IRT-42-A",
 		age: "5yrs",
 		proof: "120.76",
-		finish: "None",
+		finish: "",
 		mashbill: "60/36/4",
 		source: "MGP",
 		distilled: "",
@@ -68,7 +71,8 @@ var items = [
 		price: "",
 		state: "CA",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -78,7 +82,7 @@ var items = [
 		barrel: "IRT-06",
 		age: "5yrs 6mos",
 		proof: "117.98",
-		finish: "None",
+		finish: "",
 		mashbill: "60/36/4",
 		source: "MGP",
 		distilled: "",
@@ -86,7 +90,8 @@ var items = [
 		price: "",
 		state: "TN",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -96,7 +101,7 @@ var items = [
 		barrel: "IRT-26",
 		age: "5yrs 6mos",
 		proof: "117.42",
-		finish: "None",
+		finish: "",
 		mashbill: "60/36/4",
 		source: "MGP",
 		distilled: "",
@@ -104,7 +109,8 @@ var items = [
 		price: "",
 		state: "TN",
 		retail: "Corks Wine & Spirits",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -114,7 +120,7 @@ var items = [
 		barrel: "RIO-248",
 		age: "6yrs",
 		proof: "113.7",
-		finish: "None",
+		finish: "",
 		mashbill: "75/21/4",
 		source: "MGP",
 		distilled: "",
@@ -122,7 +128,8 @@ var items = [
 		price: "",
 		state: "DC",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -132,7 +139,7 @@ var items = [
 		barrel: "RIO-223",
 		age: "5yrs 9mos",
 		proof: "115.8",
-		finish: "None",
+		finish: "",
 		mashbill: "75/21/4",
 		source: "MGP",
 		distilled: "",
@@ -140,7 +147,8 @@ var items = [
 		price: "$79.99",
 		state: "CA",
 		retail: "Royal Batch",
-		image: "rio-223.jpg"
+		image: "rio-223.jpg",
+		label: ""
 	},
 
 	{
@@ -158,7 +166,8 @@ var items = [
 		price: "",
 		state: "DC",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -168,7 +177,7 @@ var items = [
 		barrel: "RIO-209",
 		age: "6yrs 1mo",
 		proof: "117.86",
-		finish: "None",
+		finish: "",
 		mashbill: "75/21/4",
 		source: "MGP",
 		distilled: "",
@@ -176,7 +185,8 @@ var items = [
 		price: "",
 		state: "DC",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -186,7 +196,7 @@ var items = [
 		barrel: "IRT-55",
 		age: "5yrs 4mos",
 		proof: "122.64",
-		finish: "None",
+		finish: "",
 		mashbill: "60/36/4",
 		source: "MGP",
 		distilled: "",
@@ -194,7 +204,8 @@ var items = [
 		price: "",
 		state: "KY",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -204,7 +215,7 @@ var items = [
 		barrel: "RIO-227",
 		age: "6yrs 7mos",
 		proof: "115.58",
-		finish: "None",
+		finish: "",
 		mashbill: "75/21/4",
 		source: "MGP",
 		distilled: "5/16",
@@ -212,7 +223,8 @@ var items = [
 		price: "$79.99",
 		state: "MA",
 		retail: "Burlington Wine & Spirits",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -222,7 +234,7 @@ var items = [
 		barrel: "IRT-15",
 		age: "",
 		proof: "",
-		finish: "None",
+		finish: "",
 		mashbill: "60/36/4",
 		source: "MGP",
 		distilled: "",
@@ -230,7 +242,8 @@ var items = [
 		price: "$71.99",
 		state: "TN",
 		retail: "Buster's Liquor & Wine",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -240,7 +253,7 @@ var items = [
 		barrel: "RIO-228",
 		age: "6yrs 6mos",
 		proof: "114.1",
-		finish: "None",
+		finish: "",
 		mashbill: "75/21/4",
 		source: "MGP",
 		distilled: "",
@@ -248,7 +261,8 @@ var items = [
 		price: "$81.99",
 		state: "TN",
 		retail: "Buster's Liquor & Wine",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -266,7 +280,8 @@ var items = [
 		price: "",
 		state: "NV",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -276,7 +291,7 @@ var items = [
 		barrel: "IRT-33",
 		age: "5yrs 11mos",
 		proof: "117.7",
-		finish: "None",
+		finish: "",
 		mashbill: "60/36/4",
 		source: "MGP",
 		distilled: "",
@@ -284,7 +299,8 @@ var items = [
 		price: "",
 		state: "CA",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -294,7 +310,7 @@ var items = [
 		barrel: "RIO-287",
 		age: "6yrs 6mos",
 		proof: "115.64",
-		finish: "None",
+		finish: "",
 		mashbill: "75/21/4",
 		source: "MGP",
 		distilled: "",
@@ -302,7 +318,8 @@ var items = [
 		price: "",
 		state: "DC",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -312,7 +329,7 @@ var items = [
 		barrel: "IRT-44",
 		age: "5yrs",
 		proof: "121.84",
-		finish: "None",
+		finish: "",
 		mashbill: "60/36/4",
 		source: "MGP",
 		distilled: "12/13/16",
@@ -320,7 +337,8 @@ var items = [
 		price: "",
 		state: "CA",
 		retail: "",
-		image: "irt-44.jpg"
+		image: "irt-44.jpg",
+		label: ""
 	},
 
 	{
@@ -330,7 +348,7 @@ var items = [
 		barrel: "RIO-296",
 		age: "5yrs 7mos",
 		proof: "93",
-		finish: "None",
+		finish: "",
 		mashbill: "75/21/4",
 		source: "MGP",
 		distilled: "",
@@ -338,7 +356,8 @@ var items = [
 		price: "",
 		state: "NV",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -348,7 +367,7 @@ var items = [
 		barrel: "RIO-222-C",
 		age: "6yrs 1mo",
 		proof: "115.6",
-		finish: "None",
+		finish: "",
 		mashbill: "75/21/4",
 		source: "MGP",
 		distilled: "5/16",
@@ -356,7 +375,8 @@ var items = [
 		price: "$74.99",
 		state: "CA",
 		retail: "Chip's Liquor",
-		image: "rio-222c.jpg"
+		image: "rio-222c.jpg",
+		label: ""
 	},
 
 	{
@@ -366,7 +386,7 @@ var items = [
 		barrel: "RIO-224",
 		age: "6yrs 4mos",
 		proof: "116.26",
-		finish: "None",
+		finish: "",
 		mashbill: "75/21/4",
 		source: "MGP",
 		distilled: "",
@@ -374,7 +394,8 @@ var items = [
 		price: "",
 		state: "FL",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -392,7 +413,8 @@ var items = [
 		price: "",
 		state: "NV",
 		retail: "NFS",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -402,7 +424,7 @@ var items = [
 		barrel: "RIO-269",
 		age: "6yrs 7mos",
 		proof: "112.64",
-		finish: "None",
+		finish: "",
 		mashbill: "75/21/4",
 		source: "MGP",
 		distilled: "",
@@ -410,7 +432,8 @@ var items = [
 		price: "",
 		state: "NV",
 		retail: "NFS",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -420,7 +443,7 @@ var items = [
 		barrel: "IRT-02",
 		age: "",
 		proof: "",
-		finish: "None",
+		finish: "",
 		mashbill: "60/36/4",
 		source: "MGP",
 		distilled: "",
@@ -428,7 +451,8 @@ var items = [
 		price: "",
 		state: "CT",
 		retail: "Curiada",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -438,7 +462,7 @@ var items = [
 		barrel: "RIO-222-A",
 		age: "6yrs 1mo",
 		proof: "115.6",
-		finish: "None",
+		finish: "",
 		mashbill: "75/21/4",
 		source: "MGP",
 		distilled: "5/16",
@@ -446,7 +470,8 @@ var items = [
 		price: "$79.99",
 		state: "CA",
 		retail: "Del Mesa Liquor",
-		image: "rio-222a.jpg"
+		image: "rio-222a.jpg",
+		label: ""
 	},
 
 	{
@@ -456,7 +481,7 @@ var items = [
 		barrel: "RIO-238",
 		age: "6yrs 7mos",
 		proof: "113.42",
-		finish: "None",
+		finish: "",
 		mashbill: "75/21/4",
 		source: "MGP",
 		distilled: "",
@@ -464,7 +489,8 @@ var items = [
 		price: "$79.99",
 		state: "MA",
 		retail: "Dion's ",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -474,7 +500,7 @@ var items = [
 		barrel: "RIO-240",
 		age: "6yrs 7mos",
 		proof: "114.14",
-		finish: "None",
+		finish: "",
 		mashbill: "75/21/4",
 		source: "MGP",
 		distilled: "",
@@ -482,7 +508,8 @@ var items = [
 		price: "$79.99",
 		state: "MA",
 		retail: "Dion's",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -492,7 +519,7 @@ var items = [
 		barrel: "RIO-242",
 		age: "5yrs 10mos",
 		proof: "94",
-		finish: "None",
+		finish: "",
 		mashbill: "75/21/4",
 		source: "MGP",
 		distilled: "",
@@ -500,7 +527,8 @@ var items = [
 		price: "$120.00",
 		state: "NV",
 		retail: "Eataly",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -510,7 +538,7 @@ var items = [
 		barrel: "IRT-25",
 		age: "5yrs 6mos",
 		proof: "117.22",
-		finish: "None",
+		finish: "",
 		mashbill: "60/36/4",
 		source: "MGP",
 		distilled: "11/16",
@@ -518,7 +546,8 @@ var items = [
 		price: "$75.00",
 		state: "CA",
 		retail: "El Cerrito",
-		image: ""
+		image: "irt-25.jpg",
+		label: ""
 	},
 
 	{
@@ -528,7 +557,7 @@ var items = [
 		barrel: "IRT-51",
 		age: "5yrs 10mos",
 		proof: "120.78",
-		finish: "None",
+		finish: "",
 		mashbill: "60/36/4",
 		source: "MGP",
 		distilled: "",
@@ -536,7 +565,8 @@ var items = [
 		price: "",
 		state: "TN",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -546,7 +576,7 @@ var items = [
 		barrel: "RIO-205",
 		age: "5yrs 9mos",
 		proof: "90",
-		finish: "None",
+		finish: "",
 		mashbill: "75/21/4",
 		source: "MGP",
 		distilled: "",
@@ -554,7 +584,8 @@ var items = [
 		price: "",
 		state: "CA",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -564,7 +595,7 @@ var items = [
 		barrel: "RIO-243",
 		age: "6yrs 2mos",
 		proof: "104.58",
-		finish: "None",
+		finish: "",
 		mashbill: "75/21/4",
 		source: "MGP",
 		distilled: "",
@@ -572,7 +603,8 @@ var items = [
 		price: "",
 		state: "CA",
 		retail: "Eureka",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -582,7 +614,7 @@ var items = [
 		barrel: "RIO-255",
 		age: "6yrs 2mos",
 		proof: "118.02",
-		finish: "None",
+		finish: "",
 		mashbill: "75/21/4",
 		source: "MGP",
 		distilled: "",
@@ -590,7 +622,8 @@ var items = [
 		price: "",
 		state: "CA",
 		retail: "Eureka",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -600,7 +633,7 @@ var items = [
 		barrel: "I21-03",
 		age: "4yrs 7mos",
 		proof: "114.94",
-		finish: "None",
+		finish: "",
 		mashbill: "",
 		source: "",
 		distilled: "",
@@ -608,7 +641,8 @@ var items = [
 		price: "",
 		state: "CA",
 		retail: "Eureka",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -618,7 +652,7 @@ var items = [
 		barrel: "I21-07",
 		age: "",
 		proof: "116.44",
-		finish: "None",
+		finish: "",
 		mashbill: "",
 		source: "",
 		distilled: "",
@@ -626,7 +660,8 @@ var items = [
 		price: "",
 		state: "CA",
 		retail: "Eureka",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -636,7 +671,7 @@ var items = [
 		barrel: "I21-09",
 		age: "",
 		proof: "116.2",
-		finish: "None",
+		finish: "",
 		mashbill: "",
 		source: "",
 		distilled: "",
@@ -644,7 +679,8 @@ var items = [
 		price: "",
 		state: "CA",
 		retail: "Eureka",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -654,7 +690,7 @@ var items = [
 		barrel: "I21-11",
 		age: "",
 		proof: "118.24",
-		finish: "None",
+		finish: "",
 		mashbill: "",
 		source: "",
 		distilled: "",
@@ -662,7 +698,8 @@ var items = [
 		price: "",
 		state: "CA",
 		retail: "Eureka",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -672,7 +709,7 @@ var items = [
 		barrel: "I21-14",
 		age: "4yrs 9mos",
 		proof: "116.86",
-		finish: "None",
+		finish: "",
 		mashbill: "",
 		source: "",
 		distilled: "",
@@ -680,7 +717,8 @@ var items = [
 		price: "",
 		state: "CA",
 		retail: "Eureka",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -690,7 +728,7 @@ var items = [
 		barrel: "I21-15",
 		age: "",
 		proof: "117.86",
-		finish: "None",
+		finish: "",
 		mashbill: "",
 		source: "",
 		distilled: "",
@@ -698,7 +736,8 @@ var items = [
 		price: "",
 		state: "CA",
 		retail: "Eureka",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -708,7 +747,7 @@ var items = [
 		barrel: "I21-20",
 		age: "4yrs 9mos",
 		proof: "115.24",
-		finish: "None",
+		finish: "",
 		mashbill: "",
 		source: "",
 		distilled: "",
@@ -716,7 +755,8 @@ var items = [
 		price: "",
 		state: "CA",
 		retail: "Eureka",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -726,7 +766,7 @@ var items = [
 		barrel: "RIO-239",
 		age: "5yrs 10mos",
 		proof: "113.92",
-		finish: "None",
+		finish: "",
 		mashbill: "75/21/4",
 		source: "MGP",
 		distilled: "",
@@ -734,7 +774,8 @@ var items = [
 		price: "",
 		state: "CA",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -744,7 +785,7 @@ var items = [
 		barrel: "IRT-07",
 		age: "5yrs 7mos",
 		proof: "118.48",
-		finish: "None",
+		finish: "",
 		mashbill: "60/36/4",
 		source: "MGP",
 		distilled: "11/2016",
@@ -752,7 +793,8 @@ var items = [
 		price: "$69.99",
 		state: "NY",
 		retail: "Mash & Grape",
-		image: "irt-07.jpg"
+		image: "irt-07.jpg",
+		label: ""
 	},
 
 	{
@@ -762,7 +804,7 @@ var items = [
 		barrel: "IRT-20",
 		age: "",
 		proof: "",
-		finish: "None",
+		finish: "",
 		mashbill: "60/36/4",
 		source: "MGP",
 		distilled: "",
@@ -770,7 +812,8 @@ var items = [
 		price: "$69.99",
 		state: "NY",
 		retail: "Mash & Grape",
-		image: "irt-20.jpg"
+		image: "irt-20.jpg",
+		label: ""
 	},
 
 	{
@@ -780,7 +823,7 @@ var items = [
 		barrel: "RIO-273",
 		age: "5yrs 8mos",
 		proof: "116.36",
-		finish: "None",
+		finish: "",
 		mashbill: "75/21/4",
 		source: "MGP",
 		distilled: "5/2016",
@@ -788,7 +831,8 @@ var items = [
 		price: "",
 		state: "NY",
 		retail: "",
-		image: "rio-273.jpg"
+		image: "rio-273.jpg",
+		label: ""
 	},
 
 	{
@@ -806,7 +850,8 @@ var items = [
 		price: "",
 		state: "FL",
 		retail: "Sunshine Liquor",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -816,7 +861,7 @@ var items = [
 		barrel: "RIO-213",
 		age: "6yrs",
 		proof: "116.96",
-		finish: "None",
+		finish: "",
 		mashbill: "75/21/4",
 		source: "MGP",
 		distilled: "",
@@ -824,7 +869,8 @@ var items = [
 		price: "",
 		state: "TN",
 		retail: "",
-		image: "rio-213.jpg"
+		image: "rio-213.jpg",
+		label: ""
 	},
 
 	{
@@ -834,7 +880,7 @@ var items = [
 		barrel: "RIO-214",
 		age: "",
 		proof: "",
-		finish: "None",
+		finish: "",
 		mashbill: "75/21/4",
 		source: "MGP",
 		distilled: "",
@@ -842,7 +888,8 @@ var items = [
 		price: "",
 		state: "TN",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -852,7 +899,7 @@ var items = [
 		barrel: "RIO-260",
 		age: "6yrs 6mos",
 		proof: "112.24",
-		finish: "None",
+		finish: "",
 		mashbill: "75/21/4",
 		source: "MGP",
 		distilled: "",
@@ -860,7 +907,8 @@ var items = [
 		price: "",
 		state: "TN",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -870,7 +918,7 @@ var items = [
 		barrel: "IRT-05",
 		age: "5yrs 3mos",
 		proof: "101",
-		finish: "None",
+		finish: "",
 		mashbill: "60/36/4",
 		source: "MGP",
 		distilled: "",
@@ -878,7 +926,8 @@ var items = [
 		price: "",
 		state: "CA",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -888,7 +937,7 @@ var items = [
 		barrel: "RIO-270",
 		age: "6yrs 7mos",
 		proof: "117.14",
-		finish: "None",
+		finish: "",
 		mashbill: "75/21/4",
 		source: "MGP",
 		distilled: "5/16",
@@ -896,7 +945,8 @@ var items = [
 		price: "$74.99",
 		state: "MA",
 		retail: "Gordon's Wine",
-		image: "rio-270.jpg"
+		image: "rio-270.jpg",
+		label: ""
 	},
 
 	{
@@ -906,7 +956,7 @@ var items = [
 		barrel: "IRT-46",
 		age: "",
 		proof: "107.2",
-		finish: "None",
+		finish: "",
 		mashbill: "60/36/4",
 		source: "MGP",
 		distilled: "",
@@ -914,7 +964,8 @@ var items = [
 		price: "",
 		state: "CA",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -924,7 +975,7 @@ var items = [
 		barrel: "RIO-222B",
 		age: "6yrs 1mos",
 		proof: "115.6",
-		finish: "None",
+		finish: "",
 		mashbill: "75/21/4",
 		source: "MGP",
 		distilled: "5/16",
@@ -932,7 +983,8 @@ var items = [
 		price: "$79.99",
 		state: "CA",
 		retail: "Bottle Broz",
-		image: "rio-222b.jpg"
+		image: "rio-222b.jpg",
+		label: ""
 	},
 
 	{
@@ -942,7 +994,7 @@ var items = [
 		barrel: "RIO-229",
 		age: "5yrs 8mos",
 		proof: "114.92",
-		finish: "None",
+		finish: "",
 		mashbill: "75/21/4",
 		source: "MGP",
 		distilled: "5/2016",
@@ -950,7 +1002,8 @@ var items = [
 		price: "",
 		state: "KY",
 		retail: "",
-		image: "rio-229.jpg"
+		image: "rio-229.jpg",
+		label: ""
 	},
 
 	{
@@ -960,7 +1013,7 @@ var items = [
 		barrel: "I21-08",
 		age: "4yrs 5mos",
 		proof: "116.3",
-		finish: "None",
+		finish: "",
 		mashbill: "",
 		source: "",
 		distilled: "",
@@ -968,7 +1021,8 @@ var items = [
 		price: "",
 		state: "KY",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -978,7 +1032,7 @@ var items = [
 		barrel: "RIO-295",
 		age: "5yrs 9mos",
 		proof: "117.12",
-		finish: "None",
+		finish: "",
 		mashbill: "75/21/4",
 		source: "MGP",
 		distilled: "",
@@ -986,7 +1040,8 @@ var items = [
 		price: "",
 		state: "CA",
 		retail: "Hi-Time Wine Cellars",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -996,7 +1051,7 @@ var items = [
 		barrel: "RIO-265",
 		age: "5yrs 8mos",
 		proof: "117.96",
-		finish: "None",
+		finish: "",
 		mashbill: "75/21/4",
 		source: "MGP",
 		distilled: "",
@@ -1004,7 +1059,8 @@ var items = [
 		price: "",
 		state: "KY",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -1014,7 +1070,7 @@ var items = [
 		barrel: "IRT-40",
 		age: "5yrs",
 		proof: "119.22",
-		finish: "None",
+		finish: "",
 		mashbill: "60/36/4",
 		source: "MGP",
 		distilled: "11/12/16",
@@ -1022,7 +1078,8 @@ var items = [
 		price: "",
 		state: "CA",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -1032,7 +1089,7 @@ var items = [
 		barrel: "IRT-27",
 		age: "5yrs",
 		proof: "116.66",
-		finish: "None",
+		finish: "",
 		mashbill: "60/36/4",
 		source: "MGP",
 		distilled: "11/16/16",
@@ -1040,7 +1097,8 @@ var items = [
 		price: "",
 		state: "CA",
 		retail: "Everson Royce",
-		image: "irt-27.jpg"
+		image: "irt-27.jpg",
+		label: ""
 	},
 
 	{
@@ -1058,7 +1116,8 @@ var items = [
 		price: "$103.00",
 		state: "CA",
 		retail: "Everson Royce",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -1068,7 +1127,7 @@ var items = [
 		barrel: "RIO-213-A",
 		age: "6yrs",
 		proof: "113.72",
-		finish: "None",
+		finish: "",
 		mashbill: "75/21/4",
 		source: "MGP",
 		distilled: "5/16",
@@ -1076,7 +1135,8 @@ var items = [
 		price: "$92.00",
 		state: "CA",
 		retail: "Everson Royce",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -1086,7 +1146,7 @@ var items = [
 		barrel: "RIO-256",
 		age: "6yrs",
 		proof: "118.34",
-		finish: "None",
+		finish: "",
 		mashbill: "75/21/4",
 		source: "MGP",
 		distilled: "",
@@ -1094,7 +1154,8 @@ var items = [
 		price: "",
 		state: "KY",
 		retail: "Justin's House of Bourbon",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -1104,7 +1165,7 @@ var items = [
 		barrel: "IRT-21",
 		age: "5yrs",
 		proof: "119.68",
-		finish: "None",
+		finish: "",
 		mashbill: "60/36/4",
 		source: "MGP",
 		distilled: "",
@@ -1112,7 +1173,8 @@ var items = [
 		price: "$69.99",
 		state: "CA",
 		retail: "K&L Wine Merchants",
-		image: "irt-21.jpg"
+		image: "irt-21.jpg",
+		label: ""
 	},
 
 	{
@@ -1122,7 +1184,7 @@ var items = [
 		barrel: "IRT-24",
 		age: "5yrs",
 		proof: "119.68",
-		finish: "None",
+		finish: "",
 		mashbill: "60/36/4",
 		source: "MGP",
 		distilled: "",
@@ -1130,7 +1192,8 @@ var items = [
 		price: "$69.99",
 		state: "CA",
 		retail: "K&L Wine Merchants",
-		image: "irt-24.jpg"
+		image: "irt-24.jpg",
+		label: ""
 	},
 
 	{
@@ -1140,7 +1203,7 @@ var items = [
 		barrel: "RIO-234",
 		age: "6yrs",
 		proof: "115.44",
-		finish: "None",
+		finish: "",
 		mashbill: "75/21/4",
 		source: "MGP",
 		distilled: "5/16",
@@ -1148,7 +1211,8 @@ var items = [
 		price: "$79.99",
 		state: "CA",
 		retail: "K&L Wine Merchants",
-		image: "rio-234.jpg"
+		image: "rio-234.jpg",
+		label: ""
 	},
 
 	{
@@ -1158,7 +1222,7 @@ var items = [
 		barrel: "RIO-254",
 		age: "6yrs",
 		proof: "112.86",
-		finish: "None",
+		finish: "",
 		mashbill: "75/21/4",
 		source: "MGP",
 		distilled: "",
@@ -1166,7 +1230,8 @@ var items = [
 		price: "$79.99",
 		state: "CA",
 		retail: "K&L Wine Merchants",
-		image: "rio-254.jpg"
+		image: "rio-254.jpg",
+		label: ""
 	},
 
 	{
@@ -1184,7 +1249,8 @@ var items = [
 		price: "",
 		state: "NV",
 		retail: "Khoury's",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -1194,7 +1260,7 @@ var items = [
 		barrel: "RIO-261",
 		age: "6yrs",
 		proof: "114.04",
-		finish: "None",
+		finish: "",
 		mashbill: "75/21/4",
 		source: "MGP",
 		distilled: "",
@@ -1202,7 +1268,8 @@ var items = [
 		price: "",
 		state: "NV",
 		retail: "Khoury's",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -1212,7 +1279,7 @@ var items = [
 		barrel: "IRT-10",
 		age: "5yrs 6mos",
 		proof: "120.16",
-		finish: "None",
+		finish: "",
 		mashbill: "60/36/4",
 		source: "MGP",
 		distilled: "",
@@ -1220,7 +1287,8 @@ var items = [
 		price: "",
 		state: "TN",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -1230,7 +1298,7 @@ var items = [
 		barrel: "I21-16",
 		age: "4yrs 6mos",
 		proof: "96",
-		finish: "None",
+		finish: "",
 		mashbill: "",
 		source: "",
 		distilled: "",
@@ -1238,7 +1306,8 @@ var items = [
 		price: "",
 		state: "NV",
 		retail: "NFS",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -1248,7 +1317,7 @@ var items = [
 		barrel: "IRT-18",
 		age: "5yrs 4mos",
 		proof: "118.8",
-		finish: "None",
+		finish: "",
 		mashbill: "60/36/4",
 		source: "MGP",
 		distilled: "",
@@ -1256,7 +1325,8 @@ var items = [
 		price: "",
 		state: "NV",
 		retail: "Lee's Discount Liquor",
-		image: "irt-18.jpg"
+		image: "irt-18.jpg",
+		label: ""
 	},
 
 	{
@@ -1274,7 +1344,8 @@ var items = [
 		price: "",
 		state: "NV",
 		retail: "Lee's Discount Liquor",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -1284,7 +1355,7 @@ var items = [
 		barrel: "RIO-232",
 		age: "6yrs 5mos",
 		proof: "112.84",
-		finish: "None",
+		finish: "",
 		mashbill: "75/21/4",
 		source: "MGP",
 		distilled: "",
@@ -1292,7 +1363,8 @@ var items = [
 		price: "",
 		state: "NV",
 		retail: "Lee's Discount Liquor",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -1302,7 +1374,7 @@ var items = [
 		barrel: "RIO-244",
 		age: "5yrs 10mos",
 		proof: "114.72",
-		finish: "None",
+		finish: "",
 		mashbill: "75/21/4",
 		source: "MGP",
 		distilled: "",
@@ -1310,7 +1382,8 @@ var items = [
 		price: "",
 		state: "NV",
 		retail: "Lee's Discount Liquor",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -1320,7 +1393,7 @@ var items = [
 		barrel: "RIO-262",
 		age: "6yrs",
 		proof: "118.34",
-		finish: "None",
+		finish: "",
 		mashbill: "75/21/4",
 		source: "MGP",
 		distilled: "",
@@ -1328,7 +1401,8 @@ var items = [
 		price: "",
 		state: "DC",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -1338,7 +1412,7 @@ var items = [
 		barrel: "IRT-38",
 		age: "5yrs 1mo",
 		proof: "118.26",
-		finish: "None",
+		finish: "",
 		mashbill: "60/36/4",
 		source: "MGP",
 		distilled: "12/16",
@@ -1346,7 +1420,8 @@ var items = [
 		price: "",
 		state: "KY",
 		retail: "Liquor Barn",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -1356,7 +1431,7 @@ var items = [
 		barrel: "RIO-300",
 		age: "5yrs 7mos",
 		proof: "116.3",
-		finish: "None",
+		finish: "",
 		mashbill: "75/21/4",
 		source: "MGP",
 		distilled: "",
@@ -1364,7 +1439,8 @@ var items = [
 		price: "",
 		state: "KY",
 		retail: "Liquor Barn",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -1374,7 +1450,7 @@ var items = [
 		barrel: "I21-12",
 		age: "4yrs 6mos",
 		proof: "116.76",
-		finish: "None",
+		finish: "",
 		mashbill: "",
 		source: "",
 		distilled: "",
@@ -1382,7 +1458,8 @@ var items = [
 		price: "",
 		state: "KY",
 		retail: "Liquor Barn",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -1400,7 +1477,8 @@ var items = [
 		price: "",
 		state: "MA",
 		retail: "Liquor Junction",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -1410,7 +1488,7 @@ var items = [
 		barrel: "RIO-219",
 		age: "5yrs 7mos",
 		proof: "117.74",
-		finish: "None",
+		finish: "",
 		mashbill: "75/21/4",
 		source: "MGP",
 		distilled: "5/16",
@@ -1418,7 +1496,8 @@ var items = [
 		price: "",
 		state: "NV",
 		retail: "LiquorLineup.com",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -1428,7 +1507,7 @@ var items = [
 		barrel: "IRT-42-B",
 		age: "5yrs",
 		proof: "120.76",
-		finish: "None",
+		finish: "",
 		mashbill: "60/36/4",
 		source: "MGP",
 		distilled: "",
@@ -1436,7 +1515,8 @@ var items = [
 		price: "",
 		state: "CA",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -1454,7 +1534,8 @@ var items = [
 		price: "",
 		state: "CA",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -1464,7 +1545,7 @@ var items = [
 		barrel: "RIO-286-B",
 		age: "",
 		proof: "",
-		finish: "None",
+		finish: "",
 		mashbill: "75/21/4",
 		source: "MGP",
 		distilled: "",
@@ -1472,7 +1553,8 @@ var items = [
 		price: "",
 		state: "KY",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -1482,7 +1564,7 @@ var items = [
 		barrel: "RIO-204",
 		age: "6yrs 1mo",
 		proof: "95",
-		finish: "None",
+		finish: "",
 		mashbill: "75/21/4",
 		source: "MGP",
 		distilled: "",
@@ -1490,7 +1572,8 @@ var items = [
 		price: "",
 		state: "NV",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -1500,7 +1583,7 @@ var items = [
 		barrel: "RIO-226",
 		age: "",
 		proof: "",
-		finish: "None",
+		finish: "",
 		mashbill: "75/21/4",
 		source: "MGP",
 		distilled: "",
@@ -1508,7 +1591,8 @@ var items = [
 		price: "",
 		state: "NV",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -1518,7 +1602,7 @@ var items = [
 		barrel: "",
 		age: "",
 		proof: "",
-		finish: "None",
+		finish: "",
 		mashbill: "",
 		source: "",
 		distilled: "",
@@ -1526,7 +1610,8 @@ var items = [
 		price: "",
 		state: "",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -1536,7 +1621,7 @@ var items = [
 		barrel: "IRT-53",
 		age: "5yrs 7mos",
 		proof: "111.14",
-		finish: "None",
+		finish: "",
 		mashbill: "60/36/4",
 		source: "MGP",
 		distilled: "",
@@ -1544,7 +1629,8 @@ var items = [
 		price: "",
 		state: "TN",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -1554,7 +1640,7 @@ var items = [
 		barrel: "RIO-290",
 		age: "6yrs",
 		proof: "113.54",
-		finish: "None",
+		finish: "",
 		mashbill: "75/21/4",
 		source: "MGP",
 		distilled: "5/16",
@@ -1562,7 +1648,8 @@ var items = [
 		price: "$82.99",
 		state: "DC",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -1572,7 +1659,7 @@ var items = [
 		barrel: "RIO-251",
 		age: "6yrs 5mos",
 		proof: "95",
-		finish: "None",
+		finish: "",
 		mashbill: "75/21/4",
 		source: "MGP",
 		distilled: "",
@@ -1580,7 +1667,8 @@ var items = [
 		price: "",
 		state: "NV",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -1590,7 +1678,7 @@ var items = [
 		barrel: "RIO-201",
 		age: "5yrs 9mos",
 		proof: "115.84",
-		finish: "None",
+		finish: "",
 		mashbill: "75/21/4",
 		source: "MGP",
 		distilled: "",
@@ -1598,7 +1686,8 @@ var items = [
 		price: "",
 		state: "NV",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -1608,7 +1697,7 @@ var items = [
 		barrel: "RIO-220",
 		age: "",
 		proof: "",
-		finish: "None",
+		finish: "",
 		mashbill: "75/21/4",
 		source: "MGP",
 		distilled: "",
@@ -1616,7 +1705,8 @@ var items = [
 		price: "",
 		state: "NV",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -1626,7 +1716,7 @@ var items = [
 		barrel: "RIO-283",
 		age: "6yrs",
 		proof: "104.24",
-		finish: "None",
+		finish: "",
 		mashbill: "75/21/4",
 		source: "MGP",
 		distilled: "",
@@ -1634,7 +1724,8 @@ var items = [
 		price: "",
 		state: "NV",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -1644,7 +1735,7 @@ var items = [
 		barrel: "RIO-211",
 		age: "6yrs 5mos",
 		proof: "95.4",
-		finish: "None",
+		finish: "",
 		mashbill: "75/21/4",
 		source: "MGP",
 		distilled: "5/2016",
@@ -1652,7 +1743,8 @@ var items = [
 		price: "",
 		state: "NV",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -1662,7 +1754,7 @@ var items = [
 		barrel: "IRT-30",
 		age: "5yrs",
 		proof: "119.58",
-		finish: "None",
+		finish: "",
 		mashbill: "60/36/4",
 		source: "MGP",
 		distilled: "11/16/2016",
@@ -1670,7 +1762,8 @@ var items = [
 		price: "",
 		state: "CA",
 		retail: "",
-		image: "irt-30.jpg"
+		image: "irt-30.jpg",
+		label: ""
 	},
 
 	{
@@ -1680,7 +1773,7 @@ var items = [
 		barrel: "IRT-59",
 		age: "",
 		proof: "",
-		finish: "None",
+		finish: "",
 		mashbill: "60/36/4",
 		source: "MGP",
 		distilled: "",
@@ -1688,7 +1781,8 @@ var items = [
 		price: "",
 		state: "CA",
 		retail: "",
-		image: "irt-59.jpg"
+		image: "irt-59.jpg",
+		label: ""
 	},
 
 	{
@@ -1698,7 +1792,7 @@ var items = [
 		barrel: "IRT-19-B",
 		age: "5yrs 8mos",
 		proof: "118.28",
-		finish: "None",
+		finish: "",
 		mashbill: "60/36/4",
 		source: "MGP",
 		distilled: "",
@@ -1706,7 +1800,8 @@ var items = [
 		price: "",
 		state: "CA",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -1716,7 +1811,7 @@ var items = [
 		barrel: "IRT-12-B",
 		age: "",
 		proof: "",
-		finish: "None",
+		finish: "",
 		mashbill: "60/36/4",
 		source: "MGP",
 		distilled: "",
@@ -1724,7 +1819,8 @@ var items = [
 		price: "",
 		state: "CA",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -1734,7 +1830,7 @@ var items = [
 		barrel: "I21-13-A",
 		age: "4yrs 4mos",
 		proof: "117.6",
-		finish: "None",
+		finish: "",
 		mashbill: "",
 		source: "",
 		distilled: "7/13/2017",
@@ -1742,7 +1838,8 @@ var items = [
 		price: "",
 		state: "CA",
 		retail: "",
-		image: "i21-13a.jpg"
+		image: "i21-13a.jpg",
+		label: ""
 	},
 
 	{
@@ -1752,7 +1849,7 @@ var items = [
 		barrel: "RIO-218",
 		age: "6yrs 4mos",
 		proof: "114.78",
-		finish: "None",
+		finish: "",
 		mashbill: "75/21/4",
 		source: "MGP",
 		distilled: "",
@@ -1760,7 +1857,8 @@ var items = [
 		price: "",
 		state: "",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -1770,7 +1868,7 @@ var items = [
 		barrel: "IRT-03",
 		age: "5yrs 11mos",
 		proof: "119.74",
-		finish: "None",
+		finish: "",
 		mashbill: "60/36/4",
 		source: "MGP",
 		distilled: "",
@@ -1778,7 +1876,8 @@ var items = [
 		price: "",
 		state: "TN",
 		retail: "Mr Whiskers Wines & Liquors",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -1788,7 +1887,7 @@ var items = [
 		barrel: "RIO-288",
 		age: "",
 		proof: "",
-		finish: "None",
+		finish: "",
 		mashbill: "75/21/4",
 		source: "MGP",
 		distilled: "",
@@ -1796,7 +1895,8 @@ var items = [
 		price: "",
 		state: "TN",
 		retail: "Mr Whiskers Wines & Liquors",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -1814,7 +1914,8 @@ var items = [
 		price: "$89.00",
 		state: "",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -1824,7 +1925,7 @@ var items = [
 		barrel: "IRT-41",
 		age: "",
 		proof: "",
-		finish: "None",
+		finish: "",
 		mashbill: "60/36/4",
 		source: "MGP",
 		distilled: "",
@@ -1832,7 +1933,8 @@ var items = [
 		price: "",
 		state: "TN",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -1842,7 +1944,7 @@ var items = [
 		barrel: "121-13-B",
 		age: "4yrs 4mos",
 		proof: "117.6",
-		finish: "None",
+		finish: "",
 		mashbill: "",
 		source: "",
 		distilled: "7/17",
@@ -1850,7 +1952,8 @@ var items = [
 		price: "",
 		state: "KY",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -1860,7 +1963,7 @@ var items = [
 		barrel: "IRT-18",
 		age: "4yrs 4mos",
 		proof: "116.14",
-		finish: "None",
+		finish: "",
 		mashbill: "60/36/4",
 		source: "MGP",
 		distilled: "7/13/2017",
@@ -1868,7 +1971,8 @@ var items = [
 		price: "",
 		state: "CA",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -1878,7 +1982,7 @@ var items = [
 		barrel: "IRT-46",
 		age: "",
 		proof: "",
-		finish: "None",
+		finish: "",
 		mashbill: "60/36/4",
 		source: "MGP",
 		distilled: "",
@@ -1886,7 +1990,8 @@ var items = [
 		price: "",
 		state: "CA",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -1896,7 +2001,7 @@ var items = [
 		barrel: "I21-18",
 		age: "",
 		proof: "",
-		finish: "None",
+		finish: "",
 		mashbill: "",
 		source: "",
 		distilled: "",
@@ -1904,7 +2009,8 @@ var items = [
 		price: "",
 		state: "CA",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -1914,7 +2020,7 @@ var items = [
 		barrel: "IRT-19-A",
 		age: "5yrs 2mos",
 		proof: "118.28",
-		finish: "None",
+		finish: "",
 		mashbill: "60/36/4",
 		source: "MGP",
 		distilled: "",
@@ -1922,7 +2028,8 @@ var items = [
 		price: "",
 		state: "CA",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -1932,7 +2039,7 @@ var items = [
 		barrel: "",
 		age: "14yrs",
 		proof: "143.8",
-		finish: "None",
+		finish: "",
 		mashbill: "75/21/4",
 		source: "MGP",
 		distilled: "",
@@ -1940,7 +2047,8 @@ var items = [
 		price: "$599.99",
 		state: "DC",
 		retail: "Seelbach's",
-		image: "obliteration.jpg"
+		image: "obliteration.jpg",
+		label: ""
 	},
 
 	{
@@ -1950,7 +2058,7 @@ var items = [
 		barrel: "I21-01",
 		age: "",
 		proof: "90",
-		finish: "None",
+		finish: "",
 		mashbill: "",
 		source: "",
 		distilled: "",
@@ -1958,7 +2066,8 @@ var items = [
 		price: "",
 		state: "CA",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -1968,7 +2077,7 @@ var items = [
 		barrel: "RIO-259",
 		age: "5yrs 9mos",
 		proof: "117.12",
-		finish: "None",
+		finish: "",
 		mashbill: "75/21/4",
 		source: "MGP",
 		distilled: "",
@@ -1976,7 +2085,8 @@ var items = [
 		price: "",
 		state: "KY",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -1986,7 +2096,7 @@ var items = [
 		barrel: "RIO-235",
 		age: "6yrs 6mos",
 		proof: "113.18",
-		finish: "None",
+		finish: "",
 		mashbill: "75/21/4",
 		source: "MGP",
 		distilled: "",
@@ -1994,7 +2104,8 @@ var items = [
 		price: "",
 		state: "",
 		retail: "",
-		image: "rio-235.jpg"
+		image: "rio-235.jpg",
+		label: ""
 	},
 
 	{
@@ -2004,7 +2115,7 @@ var items = [
 		barrel: "IRT-34",
 		age: "5yrs 1 mo",
 		proof: "116.26",
-		finish: "None",
+		finish: "",
 		mashbill: "60/36/4",
 		source: "MGP",
 		distilled: "12/2016",
@@ -2012,7 +2123,8 @@ var items = [
 		price: "",
 		state: "CA",
 		retail: "Bar Cart",
-		image: "irt-34.jpg"
+		image: "irt-34.jpg",
+		label: "irt-34-l.jpg"
 	},
 
 	{
@@ -2022,7 +2134,7 @@ var items = [
 		barrel: "RIO-236",
 		age: "6yrs 7mos",
 		proof: "114.12",
-		finish: "None",
+		finish: "",
 		mashbill: "75/21/4",
 		source: "MGP",
 		distilled: "",
@@ -2030,7 +2142,8 @@ var items = [
 		price: "$68.99",
 		state: "MA",
 		retail: "Rapid Liquors",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -2040,7 +2153,7 @@ var items = [
 		barrel: "RIO-241",
 		age: "",
 		proof: "",
-		finish: "None",
+		finish: "",
 		mashbill: "75/21/4",
 		source: "MGP",
 		distilled: "",
@@ -2048,7 +2161,8 @@ var items = [
 		price: "",
 		state: "DC",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -2058,7 +2172,7 @@ var items = [
 		barrel: "RIO-297",
 		age: "",
 		proof: "",
-		finish: "None",
+		finish: "",
 		mashbill: "75/21/4",
 		source: "MGP",
 		distilled: "",
@@ -2066,7 +2180,8 @@ var items = [
 		price: "",
 		state: "CA",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -2076,7 +2191,7 @@ var items = [
 		barrel: "IRT-17",
 		age: "5yrs 6mos",
 		proof: "117.66",
-		finish: "None",
+		finish: "",
 		mashbill: "60/36/4",
 		source: "MGP",
 		distilled: "",
@@ -2084,7 +2199,8 @@ var items = [
 		price: "$79.99",
 		state: "TN",
 		retail: "Red Dog",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -2102,7 +2218,8 @@ var items = [
 		price: "$99.99",
 		state: "TN",
 		retail: "Red Dog",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -2120,7 +2237,8 @@ var items = [
 		price: "$109.99",
 		state: "TN",
 		retail: "Red Dog",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -2130,7 +2248,7 @@ var items = [
 		barrel: "RIO-278",
 		age: "6yrs",
 		proof: "114.8",
-		finish: "None",
+		finish: "",
 		mashbill: "75/21/4",
 		source: "MGP",
 		distilled: "5/16",
@@ -2138,7 +2256,8 @@ var items = [
 		price: "",
 		state: "CA",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -2148,7 +2267,7 @@ var items = [
 		barrel: "RIO-264",
 		age: "5yrs 3mos",
 		proof: "113.68",
-		finish: "None",
+		finish: "",
 		mashbill: "75/21/4",
 		source: "MGP",
 		distilled: "May 2016",
@@ -2156,7 +2275,8 @@ var items = [
 		price: "",
 		state: "CA",
 		retail: "Republique",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -2174,7 +2294,8 @@ var items = [
 		price: "$114.99",
 		state: "KY",
 		retail: "",
-		image: "irt-25.jpg"
+		image: "",
+		label: ""
 	},
 
 	{
@@ -2184,7 +2305,7 @@ var items = [
 		barrel: "IRT-36A",
 		age: "6yrs",
 		proof: "115.12",
-		finish: "None",
+		finish: "",
 		mashbill: "60/36/4",
 		source: "MGP",
 		distilled: "",
@@ -2192,7 +2313,8 @@ var items = [
 		price: "",
 		state: "KY",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -2202,7 +2324,7 @@ var items = [
 		barrel: "RIO-286-A",
 		age: "6yrs",
 		proof: "115.12",
-		finish: "None",
+		finish: "",
 		mashbill: "75/21/4",
 		source: "MGP",
 		distilled: "",
@@ -2210,7 +2332,8 @@ var items = [
 		price: "",
 		state: "KY",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -2220,7 +2343,7 @@ var items = [
 		barrel: "IRT-23",
 		age: "5yrs",
 		proof: "89.5",
-		finish: "None",
+		finish: "",
 		mashbill: "60/36/4",
 		source: "MGP",
 		distilled: "",
@@ -2228,7 +2351,8 @@ var items = [
 		price: "",
 		state: "NV",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -2246,7 +2370,8 @@ var items = [
 		price: "",
 		state: "NV",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -2256,7 +2381,7 @@ var items = [
 		barrel: "RIO-298",
 		age: "6yrs 5mos",
 		proof: "113.02",
-		finish: "None",
+		finish: "",
 		mashbill: "75/21/4",
 		source: "MGP",
 		distilled: "",
@@ -2264,7 +2389,8 @@ var items = [
 		price: "",
 		state: "NV",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -2274,7 +2400,7 @@ var items = [
 		barrel: "IRT-13",
 		age: "6yrs",
 		proof: "117.72",
-		finish: "None",
+		finish: "",
 		mashbill: "60/36/4",
 		source: "MGP",
 		distilled: "11/16",
@@ -2282,7 +2408,8 @@ var items = [
 		price: "$79.99",
 		state: "CA",
 		retail: "F&D Wine and Spirits",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -2292,7 +2419,7 @@ var items = [
 		barrel: "IRT-22",
 		age: "5yrs",
 		proof: "119.18",
-		finish: "None",
+		finish: "",
 		mashbill: "60/36/4",
 		source: "MGP",
 		distilled: "",
@@ -2300,7 +2427,8 @@ var items = [
 		price: "",
 		state: "CA",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -2310,7 +2438,7 @@ var items = [
 		barrel: "IRT-35",
 		age: "5yrs",
 		proof: "117.32",
-		finish: "None",
+		finish: "",
 		mashbill: "60/36/4",
 		source: "MGP",
 		distilled: "",
@@ -2318,7 +2446,8 @@ var items = [
 		price: "$89.00",
 		state: "DC",
 		retail: "Seelbach's",
-		image: "irt-35.jpg"
+		image: "irt-35.jpg",
+		label: ""
 	},
 
 	{
@@ -2328,7 +2457,7 @@ var items = [
 		barrel: "IRT-60",
 		age: "",
 		proof: "",
-		finish: "None",
+		finish: "",
 		mashbill: "60/36/4",
 		source: "MGP",
 		distilled: "",
@@ -2336,7 +2465,8 @@ var items = [
 		price: "",
 		state: "DC",
 		retail: "Seelbach's",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -2354,7 +2484,8 @@ var items = [
 		price: "$99.99",
 		state: "DC",
 		retail: "Seelbach's",
-		image: "mad-b-1.jpg"
+		image: "mad-b-1.jpg",
+		label: ""
 	},
 
 	{
@@ -2372,7 +2503,8 @@ var items = [
 		price: "$99.99",
 		state: "DC",
 		retail: "Seelbach's",
-		image: "wp-1.jpg"
+		image: "wp-1.jpg",
+		label: ""
 	},
 
 	{
@@ -2382,7 +2514,7 @@ var items = [
 		barrel: "RIO-202",
 		age: "6yrs",
 		proof: "115.52",
-		finish: "None",
+		finish: "",
 		mashbill: "75/21/4",
 		source: "MGP",
 		distilled: "",
@@ -2390,7 +2522,8 @@ var items = [
 		price: "$89.00",
 		state: "DC",
 		retail: "Seelbach's",
-		image: "rio-202.jpg"
+		image: "rio-202.jpg",
+		label: ""
 	},
 
 	{
@@ -2400,7 +2533,7 @@ var items = [
 		barrel: "RIO-252",
 		age: "6yrs",
 		proof: "113.62",
-		finish: "None",
+		finish: "",
 		mashbill: "75/21/4",
 		source: "MGP",
 		distilled: "5/16",
@@ -2408,7 +2541,8 @@ var items = [
 		price: "$89.00",
 		state: "DC",
 		retail: "Seelbach's",
-		image: "rio-252.jpg"
+		image: "rio-252.jpg",
+		label: ""
 	},
 
 	{
@@ -2418,7 +2552,7 @@ var items = [
 		barrel: "RIO-267",
 		age: "6yrs",
 		proof: "114.78",
-		finish: "None",
+		finish: "",
 		mashbill: "75/21/4",
 		source: "MGP",
 		distilled: "",
@@ -2426,7 +2560,8 @@ var items = [
 		price: "$89.00",
 		state: "DC",
 		retail: "Seelbach's",
-		image: "rio-267.jpg"
+		image: "rio-267.jpg",
+		label: ""
 	},
 
 	{
@@ -2444,7 +2579,8 @@ var items = [
 		price: "$99.99",
 		state: "DC",
 		retail: "Seelbach's",
-		image: "wp-b-2.jpg"
+		image: "wp-b-2.jpg",
+		label: ""
 	},
 
 	{
@@ -2454,7 +2590,7 @@ var items = [
 		barrel: "RIO-282",
 		age: "6yrs 2mos",
 		proof: "118.2",
-		finish: "None",
+		finish: "",
 		mashbill: "75/21/4",
 		source: "MGP",
 		distilled: "",
@@ -2462,7 +2598,8 @@ var items = [
 		price: "",
 		state: "TN",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -2480,7 +2617,8 @@ var items = [
 		price: "$99.99",
 		state: "AZ",
 		retail: "Batch",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -2490,7 +2628,7 @@ var items = [
 		barrel: "IRT-54",
 		age: "5yrs 7mos",
 		proof: "102.6",
-		finish: "None",
+		finish: "",
 		mashbill: "60/36/4",
 		source: "MGP",
 		distilled: "11/2016",
@@ -2498,7 +2636,8 @@ var items = [
 		price: "$69.99",
 		state: "TN",
 		retail: "Red Dog",
-		image: "irt-54.jpg"
+		image: "irt-54.jpg",
+		label: ""
 	},
 
 	{
@@ -2508,7 +2647,7 @@ var items = [
 		barrel: "IRT-31",
 		age: "5yrs 7mos",
 		proof: "119.9",
-		finish: "None",
+		finish: "",
 		mashbill: "60/36/4",
 		source: "MGP",
 		distilled: "11/16",
@@ -2516,7 +2655,8 @@ var items = [
 		price: "$250.00",
 		state: "NV",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -2526,7 +2666,7 @@ var items = [
 		barrel: "IRT-31",
 		age: "5yrs 7mos",
 		proof: "95",
-		finish: "None",
+		finish: "",
 		mashbill: "60/36/4",
 		source: "MGP",
 		distilled: "11/16",
@@ -2534,7 +2674,8 @@ var items = [
 		price: "$250.00",
 		state: "NV",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -2544,7 +2685,7 @@ var items = [
 		barrel: "KHT-22",
 		age: "5yrs",
 		proof: "59.11",
-		finish: "None",
+		finish: "",
 		mashbill: "",
 		source: "",
 		distilled: "",
@@ -2552,7 +2693,8 @@ var items = [
 		price: "$250.00",
 		state: "NV",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -2570,7 +2712,8 @@ var items = [
 		price: "$99.99",
 		state: "DC",
 		retail: "Seelbach's",
-		image: "irt-29.jpg"
+		image: "irt-29.jpg",
+		label: ""
 	},
 
 	{
@@ -2580,7 +2723,7 @@ var items = [
 		barrel: "RIO-215",
 		age: "5yrs 8mos",
 		proof: "112.52",
-		finish: "None",
+		finish: "",
 		mashbill: "75/21/4",
 		source: "MGP",
 		distilled: "5/16",
@@ -2588,7 +2731,8 @@ var items = [
 		price: "",
 		state: "DC",
 		retail: "Seelbach's",
-		image: "rio-215.jpg"
+		image: "rio-215.jpg",
+		label: ""
 	},
 
 	{
@@ -2598,7 +2742,7 @@ var items = [
 		barrel: "RIO-221",
 		age: "5yrs 8mos",
 		proof: "115.52",
-		finish: "None",
+		finish: "",
 		mashbill: "75/21/4",
 		source: "MGP",
 		distilled: "5/16",
@@ -2606,7 +2750,8 @@ var items = [
 		price: "",
 		state: "DC",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -2616,7 +2761,7 @@ var items = [
 		barrel: "IRT-11",
 		age: "5yrs",
 		proof: "90",
-		finish: "None",
+		finish: "",
 		mashbill: "60/36/4",
 		source: "MGP",
 		distilled: "",
@@ -2624,7 +2769,8 @@ var items = [
 		price: "",
 		state: "CA",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -2642,7 +2788,8 @@ var items = [
 		price: "",
 		state: "AZ",
 		retail: "Top's Liquor",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -2652,7 +2799,7 @@ var items = [
 		barrel: "RIO-206",
 		age: "6yrs 5mos",
 		proof: "113.02",
-		finish: "None",
+		finish: "",
 		mashbill: "75/21/4",
 		source: "MGP",
 		distilled: "",
@@ -2660,7 +2807,8 @@ var items = [
 		price: "",
 		state: "AZ",
 		retail: "Top's Liquor",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -2678,7 +2826,8 @@ var items = [
 		price: "",
 		state: "",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -2688,7 +2837,7 @@ var items = [
 		barrel: "RIO-212",
 		age: "6yrs 1mos",
 		proof: "115.52",
-		finish: "None",
+		finish: "",
 		mashbill: "75/21/4",
 		source: "MGP",
 		distilled: "",
@@ -2696,7 +2845,8 @@ var items = [
 		price: "",
 		state: "AZ",
 		retail: "Trevor's Liquors",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -2706,7 +2856,7 @@ var items = [
 		barrel: "IRT-09",
 		age: "",
 		proof: "",
-		finish: "None",
+		finish: "",
 		mashbill: "60/36/4",
 		source: "MGP",
 		distilled: "",
@@ -2714,7 +2864,8 @@ var items = [
 		price: "",
 		state: "TN",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -2724,7 +2875,7 @@ var items = [
 		barrel: "IRT-28",
 		age: "",
 		proof: "",
-		finish: "None",
+		finish: "",
 		mashbill: "60/36/4",
 		source: "MGP",
 		distilled: "",
@@ -2732,7 +2883,8 @@ var items = [
 		price: "",
 		state: "TN",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -2742,7 +2894,7 @@ var items = [
 		barrel: "RIO-287",
 		age: "",
 		proof: "",
-		finish: "None",
+		finish: "",
 		mashbill: "75/21/4",
 		source: "MGP",
 		distilled: "",
@@ -2750,7 +2902,8 @@ var items = [
 		price: "",
 		state: "TN",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -2760,7 +2913,7 @@ var items = [
 		barrel: "RIO-249",
 		age: "5yrs 7mos",
 		proof: "114.18",
-		finish: "None",
+		finish: "",
 		mashbill: "75/21/4",
 		source: "MGP",
 		distilled: "",
@@ -2768,7 +2921,8 @@ var items = [
 		price: "",
 		state: "KY",
 		retail: "",
-		image: "rio-249.jpg"
+		image: "rio-249.jpg",
+		label: ""
 	},
 
 	{
@@ -2778,7 +2932,7 @@ var items = [
 		barrel: "RIO-299",
 		age: "6yrs",
 		proof: "118.48",
-		finish: "None",
+		finish: "",
 		mashbill: "75/21/4",
 		source: "MGP",
 		distilled: "",
@@ -2786,7 +2940,8 @@ var items = [
 		price: "$79.99",
 		state: "CA",
 		retail: "K&L Wine Merchants",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -2796,7 +2951,7 @@ var items = [
 		barrel: "IRT-32",
 		age: "",
 		proof: "",
-		finish: "None",
+		finish: "",
 		mashbill: "60/36/4",
 		source: "MGP",
 		distilled: "",
@@ -2804,7 +2959,8 @@ var items = [
 		price: "",
 		state: "TN",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -2814,7 +2970,7 @@ var items = [
 		barrel: "RIO-207",
 		age: "6yrs 5mos",
 		proof: "114.48",
-		finish: "None",
+		finish: "",
 		mashbill: "75/21/4",
 		source: "MGP",
 		distilled: "",
@@ -2822,7 +2978,8 @@ var items = [
 		price: "",
 		state: "TN",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -2832,7 +2989,7 @@ var items = [
 		barrel: "IRT-37",
 		age: "",
 		proof: "",
-		finish: "None",
+		finish: "",
 		mashbill: "60/36/4",
 		source: "MGP",
 		distilled: "",
@@ -2840,7 +2997,8 @@ var items = [
 		price: "",
 		state: "CA",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -2850,7 +3008,7 @@ var items = [
 		barrel: "IRT-45",
 		age: "",
 		proof: "",
-		finish: "None",
+		finish: "",
 		mashbill: "60/36/4",
 		source: "MGP",
 		distilled: "",
@@ -2858,7 +3016,8 @@ var items = [
 		price: "",
 		state: "CA",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -2876,7 +3035,8 @@ var items = [
 		price: "",
 		state: "",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -2886,7 +3046,7 @@ var items = [
 		barrel: "I95-07",
 		age: "",
 		proof: "",
-		finish: "None",
+		finish: "",
 		mashbill: "95/5",
 		source: "MGP",
 		distilled: "",
@@ -2894,7 +3054,8 @@ var items = [
 		price: "",
 		state: "CA",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -2904,7 +3065,7 @@ var items = [
 		barrel: "KRY-547",
 		age: "6yrs 6mos",
 		proof: "121.2",
-		finish: "None",
+		finish: "",
 		mashbill: "95/5",
 		source: "Bardstown",
 		distilled: "",
@@ -2912,7 +3073,8 @@ var items = [
 		price: "",
 		state: "DC",
 		retail: "Seelbach's",
-		image: "kry-547.jpg"
+		image: "kry-547.jpg",
+		label: "kry-547-l.jpg"
 	},
 
 	{
@@ -2922,7 +3084,7 @@ var items = [
 		barrel: "I95-14",
 		age: "5yrs",
 		proof: "113.94",
-		finish: "None",
+		finish: "",
 		mashbill: "95/5",
 		source: "MGP",
 		distilled: "11/28/2016",
@@ -2930,7 +3092,8 @@ var items = [
 		price: "$69.95",
 		state: "CA",
 		retail: "Top Bourbon",
-		image: "i95-14.jpg"
+		image: "i95-14.jpg",
+		label: ""
 	},
 
 	{
@@ -2940,7 +3103,7 @@ var items = [
 		barrel: "KRY-534-B",
 		age: "7rys 4mos",
 		proof: "122.7",
-		finish: "None",
+		finish: "",
 		mashbill: "95/5",
 		source: "Bardstown",
 		distilled: "",
@@ -2948,7 +3111,8 @@ var items = [
 		price: "$99.99",
 		state: "WI",
 		retail: "Aman's",
-		image: "kry-534b.jpg"
+		image: "kry-534b.jpg",
+		label: "kry-534b-l.jpg"
 	},
 
 	{
@@ -2958,7 +3122,7 @@ var items = [
 		barrel: "KRY-545",
 		age: "",
 		proof: "",
-		finish: "None",
+		finish: "",
 		mashbill: "95/5",
 		source: "Bardstown",
 		distilled: "",
@@ -2966,7 +3130,8 @@ var items = [
 		price: "",
 		state: "TN",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -2984,7 +3149,8 @@ var items = [
 		price: "$79.99",
 		state: "NJ",
 		retail: "Bayway",
-		image: ""
+		image: "amb-r-19.jpg",
+		label: "amb-r-19-l.jpg"
 	},
 
 	{
@@ -2994,7 +3160,7 @@ var items = [
 		barrel: "I95-10",
 		age: "4yrs 4mos",
 		proof: "113.8",
-		finish: "None",
+		finish: "",
 		mashbill: "",
 		source: "MGP",
 		distilled: "",
@@ -3002,7 +3168,8 @@ var items = [
 		price: "",
 		state: "CA",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -3020,7 +3187,8 @@ var items = [
 		price: "",
 		state: "DC",
 		retail: "Bourbon Outfitter",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -3030,7 +3198,7 @@ var items = [
 		barrel: "KRY-567",
 		age: "6yrs 1mos",
 		proof: "121.68",
-		finish: "None",
+		finish: "",
 		mashbill: "95/5",
 		source: "Bardstown",
 		distilled: "",
@@ -3038,7 +3206,8 @@ var items = [
 		price: "",
 		state: "CA",
 		retail: "",
-		image: "kry-567.jpg"
+		image: "kry-567.jpg",
+		label: ""
 	},
 
 	{
@@ -3056,7 +3225,8 @@ var items = [
 		price: "",
 		state: "AK",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -3066,7 +3236,7 @@ var items = [
 		barrel: "I95-17",
 		age: "5yrs 6mos",
 		proof: "115.06",
-		finish: "None",
+		finish: "",
 		mashbill: "",
 		source: "MGP",
 		distilled: "",
@@ -3074,7 +3244,8 @@ var items = [
 		price: "$79.99",
 		state: "TN",
 		retail: "Buster's Liquor & Wine",
-		image: "i95-17.png"
+		image: "i95-17..png",
+		label: ""
 	},
 
 	{
@@ -3084,7 +3255,7 @@ var items = [
 		barrel: "KRY-542-A",
 		age: "6yrs 7mos",
 		proof: "121.28",
-		finish: "None",
+		finish: "",
 		mashbill: "",
 		source: "",
 		distilled: "",
@@ -3092,7 +3263,8 @@ var items = [
 		price: "",
 		state: "TN",
 		retail: "Buster's Liquor & Wine",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -3102,7 +3274,7 @@ var items = [
 		barrel: "I95-10",
 		age: "",
 		proof: "",
-		finish: "None",
+		finish: "",
 		mashbill: "95/5",
 		source: "MGP",
 		distilled: "",
@@ -3110,7 +3282,8 @@ var items = [
 		price: "",
 		state: "CA",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -3120,7 +3293,7 @@ var items = [
 		barrel: "KRY-546",
 		age: "6yrs 6mos",
 		proof: "120.1",
-		finish: "None",
+		finish: "",
 		mashbill: "95/5",
 		source: "Bardstown",
 		distilled: "",
@@ -3128,7 +3301,8 @@ var items = [
 		price: "",
 		state: "DC",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -3138,7 +3312,7 @@ var items = [
 		barrel: "KRY-564",
 		age: "6yrs 1mo",
 		proof: "122.6",
-		finish: "None",
+		finish: "",
 		mashbill: "95/5",
 		source: "Bardstown",
 		distilled: "",
@@ -3146,7 +3320,8 @@ var items = [
 		price: "",
 		state: "DC",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -3164,7 +3339,8 @@ var items = [
 		price: "",
 		state: "NV",
 		retail: "NFS",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -3174,7 +3350,7 @@ var items = [
 		barrel: "KRY-530",
 		age: "6yrs 7mos",
 		proof: "122",
-		finish: "None",
+		finish: "",
 		mashbill: "95/5",
 		source: "Bardstown",
 		distilled: "5/2016",
@@ -3182,7 +3358,8 @@ var items = [
 		price: "",
 		state: "NV",
 		retail: "NFS",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -3192,7 +3369,7 @@ var items = [
 		barrel: "TNR-08",
 		age: "5yrs 6mos",
 		proof: "111.42",
-		finish: "None",
+		finish: "",
 		mashbill: "95/5",
 		source: "Dickel",
 		distilled: "",
@@ -3200,7 +3377,8 @@ var items = [
 		price: "",
 		state: "CA",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -3210,7 +3388,7 @@ var items = [
 		barrel: "KRY-569",
 		age: "6yrs 6mos",
 		proof: "121.04",
-		finish: "None",
+		finish: "",
 		mashbill: "95/5",
 		source: "Bardstown",
 		distilled: "5/16",
@@ -3218,7 +3396,8 @@ var items = [
 		price: "$95.00",
 		state: "CA",
 		retail: "El Cerrito",
-		image: "kry-569.jpg"
+		image: "kry-569.jpg",
+		label: ""
 	},
 
 	{
@@ -3228,7 +3407,7 @@ var items = [
 		barrel: "KRY-570",
 		age: "7yrs 4mos",
 		proof: "122.1",
-		finish: "None",
+		finish: "",
 		mashbill: "95/5",
 		source: "Bardstown",
 		distilled: "5/15",
@@ -3236,7 +3415,8 @@ var items = [
 		price: "",
 		state: "TN",
 		retail: "",
-		image: "kry-570.jpg"
+		image: "kry-570.jpg",
+		label: ""
 	},
 
 	{
@@ -3246,7 +3426,7 @@ var items = [
 		barrel: "KRY-529",
 		age: "6yrs 5mos",
 		proof: "121.88",
-		finish: "None",
+		finish: "",
 		mashbill: "95/5",
 		source: "Bardstown",
 		distilled: "",
@@ -3254,7 +3434,8 @@ var items = [
 		price: "",
 		state: "CA",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -3264,7 +3445,7 @@ var items = [
 		barrel: "KRY-541",
 		age: "6yrs 5mos",
 		proof: "121.88",
-		finish: "None",
+		finish: "",
 		mashbill: "95/5",
 		source: "Bardstown",
 		distilled: "",
@@ -3272,7 +3453,8 @@ var items = [
 		price: "",
 		state: "CA",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -3282,7 +3464,7 @@ var items = [
 		barrel: "RHY-7B",
 		age: "4yrs 9mos",
 		proof: "103",
-		finish: "None",
+		finish: "",
 		mashbill: "",
 		source: "",
 		distilled: "",
@@ -3290,7 +3472,8 @@ var items = [
 		price: "",
 		state: "NV",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -3308,7 +3491,8 @@ var items = [
 		price: "",
 		state: "",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -3318,7 +3502,7 @@ var items = [
 		barrel: "RHY-20",
 		age: "4yrs 4mos",
 		proof: "115.88",
-		finish: "None",
+		finish: "",
 		mashbill: "51/45/4",
 		source: "",
 		distilled: "9/17",
@@ -3326,7 +3510,8 @@ var items = [
 		price: "$59.99",
 		state: "NY",
 		retail: "Mash & Grape",
-		image: "rhy-20.jpg"
+		image: "rhy-20.jpg",
+		label: ""
 	},
 
 	{
@@ -3336,7 +3521,7 @@ var items = [
 		barrel: "RHY-17-B",
 		age: "4yrs 2mos",
 		proof: "101",
-		finish: "None",
+		finish: "",
 		mashbill: "",
 		source: "",
 		distilled: "",
@@ -3344,7 +3529,8 @@ var items = [
 		price: "",
 		state: "NY",
 		retail: "NFS",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -3354,7 +3540,7 @@ var items = [
 		barrel: "RHY-07-A",
 		age: "4yrs 9mos",
 		proof: "103",
-		finish: "None",
+		finish: "",
 		mashbill: "",
 		source: "",
 		distilled: "",
@@ -3362,7 +3548,8 @@ var items = [
 		price: "",
 		state: "NV",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -3380,7 +3567,8 @@ var items = [
 		price: "",
 		state: "MA",
 		retail: "Gordon's Wine",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -3390,7 +3578,7 @@ var items = [
 		barrel: "KRY-523",
 		age: "6yrs 7mos",
 		proof: "88.22",
-		finish: "None",
+		finish: "",
 		mashbill: "95/5",
 		source: "Bardstown",
 		distilled: "5/16",
@@ -3398,7 +3586,8 @@ var items = [
 		price: "$94.99",
 		state: "MA",
 		retail: "Gordon's Wine",
-		image: "kry-523.jpg"
+		image: "kry-523.jpg",
+		label: ""
 	},
 
 	{
@@ -3408,7 +3597,7 @@ var items = [
 		barrel: "KRY-565",
 		age: "",
 		proof: "",
-		finish: "None",
+		finish: "",
 		mashbill: "95/5",
 		source: "Bardstown",
 		distilled: "",
@@ -3416,7 +3605,8 @@ var items = [
 		price: "",
 		state: "KY",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -3426,7 +3616,7 @@ var items = [
 		barrel: "TNR-02",
 		age: "4yrs 3mos",
 		proof: "111.46",
-		finish: "None",
+		finish: "",
 		mashbill: "95/5",
 		source: "Dickel",
 		distilled: "",
@@ -3434,7 +3624,8 @@ var items = [
 		price: "",
 		state: "CA",
 		retail: "Hi-Time Wine Cellars",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -3444,7 +3635,7 @@ var items = [
 		barrel: "TNR-01",
 		age: "",
 		proof: "110.34",
-		finish: "None",
+		finish: "",
 		mashbill: "95/5",
 		source: "Dickel",
 		distilled: "",
@@ -3452,7 +3643,8 @@ var items = [
 		price: "",
 		state: "CA",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -3462,7 +3654,7 @@ var items = [
 		barrel: "I95-15",
 		age: "5yrs",
 		proof: "113.08",
-		finish: "None",
+		finish: "",
 		mashbill: "95/5",
 		source: "MGP",
 		distilled: "11/28/2016",
@@ -3470,7 +3662,8 @@ var items = [
 		price: "",
 		state: "CA",
 		retail: "Everson Royce",
-		image: "i95-15.jpg"
+		image: "i95-15.jpg",
+		label: ""
 	},
 
 	{
@@ -3480,7 +3673,7 @@ var items = [
 		barrel: "TNR-04",
 		age: "5yrs 6mos",
 		proof: "110.62",
-		finish: "None",
+		finish: "",
 		mashbill: "95/5",
 		source: "Dickel",
 		distilled: "1/12/2016",
@@ -3488,7 +3681,8 @@ var items = [
 		price: "$79.99",
 		state: "CA",
 		retail: "K&L Wine Merchants",
-		image: "tnr-04.jpg"
+		image: "tnr-04.jpg",
+		label: ""
 	},
 
 	{
@@ -3498,7 +3692,7 @@ var items = [
 		barrel: "TNR-07",
 		age: "5yrs 6mos",
 		proof: "111",
-		finish: "None",
+		finish: "",
 		mashbill: "95/5",
 		source: "Dickel",
 		distilled: "",
@@ -3506,7 +3700,8 @@ var items = [
 		price: "$79.99",
 		state: "CA",
 		retail: "K&L Wine Merchants",
-		image: "tnr-07.jpg"
+		image: "tnr-07.jpg",
+		label: ""
 	},
 
 	{
@@ -3524,7 +3719,8 @@ var items = [
 		price: "",
 		state: "CA",
 		retail: "Keg n Bottle",
-		image: ""
+		image: "101-95.jpg",
+		label: "101-95-l.jpg"
 	},
 
 	{
@@ -3534,7 +3730,7 @@ var items = [
 		barrel: "TNR-10",
 		age: "5yrs 6mos",
 		proof: "109.42",
-		finish: "None",
+		finish: "",
 		mashbill: "95/5",
 		source: "Dickel",
 		distilled: "",
@@ -3542,7 +3738,8 @@ var items = [
 		price: "",
 		state: "NV",
 		retail: "Khoury's",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -3552,7 +3749,7 @@ var items = [
 		barrel: "KRY-573",
 		age: "6yrs 7mos",
 		proof: "122.82",
-		finish: "None",
+		finish: "",
 		mashbill: "95/5",
 		source: "Bardstown",
 		distilled: "5/16",
@@ -3560,7 +3757,8 @@ var items = [
 		price: "",
 		state: "TN",
 		retail: "Last Chance Liquors",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -3578,7 +3776,8 @@ var items = [
 		price: "",
 		state: "NV",
 		retail: "Lee's Discount Liquor",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -3588,7 +3787,7 @@ var items = [
 		barrel: "KRY-568",
 		age: "6yrs 7mos",
 		proof: "121.16",
-		finish: "None",
+		finish: "",
 		mashbill: "95/5",
 		source: "Bardstown",
 		distilled: "May 2016",
@@ -3596,7 +3795,8 @@ var items = [
 		price: "",
 		state: "OR",
 		retail: "Liquor Depot",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -3606,7 +3806,7 @@ var items = [
 		barrel: "KRY-549-B",
 		age: "6yrs 7mos",
 		proof: "121.18",
-		finish: "None",
+		finish: "",
 		mashbill: "95/5",
 		source: "Bardstown",
 		distilled: "",
@@ -3614,7 +3814,8 @@ var items = [
 		price: "",
 		state: "MA",
 		retail: "Liquor Junction",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -3624,7 +3825,7 @@ var items = [
 		barrel: "KRY-564",
 		age: "6yrs 2mos",
 		proof: "122.5",
-		finish: "None",
+		finish: "",
 		mashbill: "95/5",
 		source: "Bardstown",
 		distilled: "5/16",
@@ -3632,7 +3833,8 @@ var items = [
 		price: "",
 		state: "NV",
 		retail: "LiquorLineup.com",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -3650,7 +3852,8 @@ var items = [
 		price: "",
 		state: "CA",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -3660,7 +3863,7 @@ var items = [
 		barrel: "KRY-526-A",
 		age: "6yrs 7mos",
 		proof: "121.04",
-		finish: "None",
+		finish: "",
 		mashbill: "95/5",
 		source: "Bardstown",
 		distilled: "",
@@ -3668,7 +3871,8 @@ var items = [
 		price: "",
 		state: "MA",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -3678,7 +3882,7 @@ var items = [
 		barrel: "TNR-05",
 		age: "5yrs 5mos",
 		proof: "112.24",
-		finish: "None",
+		finish: "",
 		mashbill: "95/5",
 		source: "Dickel",
 		distilled: "",
@@ -3686,7 +3890,8 @@ var items = [
 		price: "",
 		state: "NV",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -3696,7 +3901,7 @@ var items = [
 		barrel: "KRY-534-A",
 		age: "7yrs 4mos",
 		proof: "122.7",
-		finish: "None",
+		finish: "",
 		mashbill: "95/5",
 		source: "Bardstown",
 		distilled: "",
@@ -3704,7 +3909,8 @@ var items = [
 		price: "",
 		state: "",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -3714,7 +3920,7 @@ var items = [
 		barrel: "",
 		age: "",
 		proof: "",
-		finish: "None",
+		finish: "",
 		mashbill: "",
 		source: "",
 		distilled: "",
@@ -3722,7 +3928,8 @@ var items = [
 		price: "",
 		state: "",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -3732,7 +3939,7 @@ var items = [
 		barrel: "KRY-548",
 		age: "5yrs 10mos",
 		proof: "122.1",
-		finish: "None",
+		finish: "",
 		mashbill: "95/5",
 		source: "Bardstown ",
 		distilled: "",
@@ -3740,7 +3947,8 @@ var items = [
 		price: "",
 		state: "CA",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -3750,7 +3958,7 @@ var items = [
 		barrel: "TNR-06-B",
 		age: "4yrs 6mos",
 		proof: "112.4",
-		finish: "None",
+		finish: "",
 		mashbill: "95/5",
 		source: "Dickel",
 		distilled: "7/17",
@@ -3758,7 +3966,8 @@ var items = [
 		price: "",
 		state: "CA",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -3768,7 +3977,7 @@ var items = [
 		barrel: "TNR-06A",
 		age: "6yrs",
 		proof: "112.4",
-		finish: "None",
+		finish: "",
 		mashbill: "95/5",
 		source: "Dickel",
 		distilled: "",
@@ -3776,7 +3985,8 @@ var items = [
 		price: "",
 		state: "CA",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -3786,7 +3996,7 @@ var items = [
 		barrel: "KRY-521",
 		age: "6yrs 6mos",
 		proof: "119.76",
-		finish: "None",
+		finish: "",
 		mashbill: "95/5",
 		source: "Bardstown",
 		distilled: "",
@@ -3794,7 +4004,8 @@ var items = [
 		price: "",
 		state: "",
 		retail: "",
-		image: "kry-521.jpg"
+		image: "kry-521.jpg",
+		label: ""
 	},
 
 	{
@@ -3804,7 +4015,7 @@ var items = [
 		barrel: "KRY-557-A",
 		age: "6yrs 7mos",
 		proof: "122.06",
-		finish: "None",
+		finish: "",
 		mashbill: "95/5",
 		source: "Bardstown",
 		distilled: "",
@@ -3812,7 +4023,8 @@ var items = [
 		price: "",
 		state: "MA",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -3822,7 +4034,7 @@ var items = [
 		barrel: "KRY-544",
 		age: "6yrs 4mos",
 		proof: "120.3",
-		finish: "None",
+		finish: "",
 		mashbill: "95/5",
 		source: "Bardstown",
 		distilled: "",
@@ -3830,7 +4042,8 @@ var items = [
 		price: "",
 		state: "DC",
 		retail: "",
-		image: "kry-544.jpg"
+		image: "kry-544.jpg",
+		label: ""
 	},
 
 	{
@@ -3840,7 +4053,7 @@ var items = [
 		barrel: "KRY-561",
 		age: "5yrs 11mos",
 		proof: "117.98",
-		finish: "None",
+		finish: "",
 		mashbill: "95/5",
 		source: "Bardstown",
 		distilled: "",
@@ -3848,7 +4061,8 @@ var items = [
 		price: "$99.99",
 		state: "TN",
 		retail: "Red Dog",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -3858,7 +4072,7 @@ var items = [
 		barrel: "KRY-524",
 		age: "6yrs 5mos",
 		proof: "121.86",
-		finish: "None",
+		finish: "",
 		mashbill: "95/5",
 		source: "Bardstown",
 		distilled: "May 2016",
@@ -3866,7 +4080,8 @@ var items = [
 		price: "",
 		state: "CA",
 		retail: "Republique",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -3884,7 +4099,8 @@ var items = [
 		price: "$92.99",
 		state: "CA",
 		retail: "ReserveBar",
-		image: "amb-r-06.png"
+		image: "amb-r-06..png",
+		label: "amb-r-06-l.jpg"
 	},
 
 	{
@@ -3902,7 +4118,8 @@ var items = [
 		price: "$92.99",
 		state: "CA",
 		retail: "ReserveBar",
-		image: "jaq-r-01.png"
+		image: "jaq-r-01..png",
+		label: ""
 	},
 
 	{
@@ -3920,7 +4137,8 @@ var items = [
 		price: "",
 		state: "RI",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -3930,7 +4148,7 @@ var items = [
 		barrel: "KRY-542",
 		age: "5yrs 10mos",
 		proof: "82",
-		finish: "None",
+		finish: "",
 		mashbill: "95/5",
 		source: "Bardstown",
 		distilled: "",
@@ -3938,7 +4156,8 @@ var items = [
 		price: "",
 		state: "NV",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -3948,7 +4167,7 @@ var items = [
 		barrel: "KRY-527",
 		age: "6yrs 6mos",
 		proof: "122.8",
-		finish: "None",
+		finish: "",
 		mashbill: "95/5",
 		source: "Bardstown",
 		distilled: "5/16",
@@ -3956,7 +4175,8 @@ var items = [
 		price: "$99.99",
 		state: "CA",
 		retail: "F&D Wine and Spirits",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -3966,7 +4186,7 @@ var items = [
 		barrel: "I95-11",
 		age: "5yrs",
 		proof: "114.58",
-		finish: "None",
+		finish: "",
 		mashbill: "95/5",
 		source: "MGP",
 		distilled: "11/28/2016",
@@ -3974,7 +4194,8 @@ var items = [
 		price: "$99.00",
 		state: "DC",
 		retail: "",
-		image: "i95-11.jpg"
+		image: "i95-11.jpg",
+		label: ""
 	},
 
 	{
@@ -3984,7 +4205,7 @@ var items = [
 		barrel: "TNR-03",
 		age: "4yrs 9mos",
 		proof: "111.72",
-		finish: "None",
+		finish: "",
 		mashbill: "95/5",
 		source: "Dickel",
 		distilled: "1/16",
@@ -3992,7 +4213,8 @@ var items = [
 		price: "$250.00",
 		state: "NV",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -4002,7 +4224,7 @@ var items = [
 		barrel: "KRY-522",
 		age: "6yrs 7mos",
 		proof: "122.22",
-		finish: "None",
+		finish: "",
 		mashbill: "95/5",
 		source: "Bardstown",
 		distilled: "",
@@ -4010,7 +4232,8 @@ var items = [
 		price: "",
 		state: "OR",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -4020,7 +4243,7 @@ var items = [
 		barrel: "KRY-535",
 		age: "6yrs 7mos",
 		proof: "122.42",
-		finish: "None",
+		finish: "",
 		mashbill: "95/5",
 		source: "Bardstown",
 		distilled: "5/16",
@@ -4028,7 +4251,8 @@ var items = [
 		price: "$89.95",
 		state: "OR",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -4046,7 +4270,8 @@ var items = [
 		price: "",
 		state: "DC",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -4064,7 +4289,8 @@ var items = [
 		price: "",
 		state: "DC",
 		retail: "Seelbach's",
-		image: "amb-5.jpg"
+		image: "amb-5.jpg",
+		label: "amb-5-l.jpg"
 	},
 
 	{
@@ -4074,7 +4300,7 @@ var items = [
 		barrel: "KRY-561",
 		age: "6yrs 7mos",
 		proof: "120.84",
-		finish: "None",
+		finish: "",
 		mashbill: "95/5",
 		source: "Bardstown",
 		distilled: "",
@@ -4082,7 +4308,8 @@ var items = [
 		price: "",
 		state: "",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -4100,7 +4327,8 @@ var items = [
 		price: "",
 		state: "AZ",
 		retail: "",
-		image: "amb-r-2.jpg"
+		image: "amb-r-2.jpg",
+		label: "amb-r-2-l.jpg"
 	},
 
 	{
@@ -4110,7 +4338,7 @@ var items = [
 		barrel: "KRY-564",
 		age: "6yrs 1mos",
 		proof: "122.3",
-		finish: "None",
+		finish: "",
 		mashbill: "95/5",
 		source: "Bardstown",
 		distilled: "",
@@ -4118,7 +4346,8 @@ var items = [
 		price: "",
 		state: "AZ",
 		retail: "Trevor's",
-		image: "kry-564.jpg"
+		image: "kry-564.jpg",
+		label: ""
 	},
 
 	{
@@ -4136,7 +4365,8 @@ var items = [
 		price: "",
 		state: "AZ",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -4154,7 +4384,8 @@ var items = [
 		price: "",
 		state: "NV",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -4172,7 +4403,8 @@ var items = [
 		price: "",
 		state: "NV",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -4182,7 +4414,7 @@ var items = [
 		barrel: "",
 		age: "",
 		proof: "",
-		finish: "None",
+		finish: "",
 		mashbill: "",
 		source: "",
 		distilled: "",
@@ -4190,7 +4422,8 @@ var items = [
 		price: "",
 		state: "",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -4200,7 +4433,7 @@ var items = [
 		barrel: "RHY-17-A",
 		age: "",
 		proof: "103",
-		finish: "None",
+		finish: "",
 		mashbill: "",
 		source: "",
 		distilled: "",
@@ -4208,7 +4441,8 @@ var items = [
 		price: "",
 		state: "NY",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -4218,7 +4452,7 @@ var items = [
 		barrel: "KRY-538",
 		age: "6yrs Xmos",
 		proof: "119.82",
-		finish: "None",
+		finish: "",
 		mashbill: "95/5",
 		source: "Bardstown",
 		distilled: "",
@@ -4226,7 +4460,8 @@ var items = [
 		price: "",
 		state: "",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -4244,7 +4479,8 @@ var items = [
 		price: "",
 		state: "",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -4254,7 +4490,7 @@ var items = [
 		barrel: "81005",
 		age: "14yrs 5mos",
 		proof: "121.6",
-		finish: "None",
+		finish: "",
 		mashbill: "65/35",
 		source: "",
 		distilled: "May/2008",
@@ -4262,7 +4498,8 @@ var items = [
 		price: "",
 		state: "",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -4272,7 +4509,7 @@ var items = [
 		barrel: "E-KB-05",
 		age: "9yrs",
 		proof: "122",
-		finish: "None",
+		finish: "",
 		mashbill: "65/35",
 		source: "",
 		distilled: "Oct/2013",
@@ -4280,7 +4517,8 @@ var items = [
 		price: "$169.99",
 		state: "CA",
 		retail: "K&L Wine Merchants",
-		image: "e-kb-05.jpg"
+		image: "e-kb-05.jpg",
+		label: ""
 	},
 
 	{
@@ -4290,7 +4528,7 @@ var items = [
 		barrel: "E-M11-01",
 		age: "",
 		proof: "",
-		finish: "None",
+		finish: "",
 		mashbill: "65/35",
 		source: "",
 		distilled: "",
@@ -4298,7 +4536,8 @@ var items = [
 		price: "$199.99",
 		state: "MA",
 		retail: "Lighthouse Wine & Spirits",
-		image: ""
+		image: "e-m11-01.jpg",
+		label: ""
 	},
 
 	{
@@ -4308,7 +4547,7 @@ var items = [
 		barrel: "E-M11-06",
 		age: "10yrs 10mos",
 		proof: "101.18",
-		finish: "None",
+		finish: "",
 		mashbill: "65/35",
 		source: "",
 		distilled: "Feb/2011",
@@ -4316,7 +4555,8 @@ var items = [
 		price: "",
 		state: "TN",
 		retail: "Mr Whiskers Wines & Liquors",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -4326,7 +4566,7 @@ var items = [
 		barrel: "E-M11-15",
 		age: "11yrs 8mos",
 		proof: "104.86",
-		finish: "None",
+		finish: "",
 		mashbill: "65/35",
 		source: "",
 		distilled: "Mar/2011",
@@ -4334,7 +4574,8 @@ var items = [
 		price: "$129.99",
 		state: "MA",
 		retail: "Rapid Liquors",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -4344,7 +4585,7 @@ var items = [
 		barrel: "E-M14-47",
 		age: "14yrs 5mos",
 		proof: "133.8",
-		finish: "None",
+		finish: "",
 		mashbill: "65/35",
 		source: "",
 		distilled: "May/2008",
@@ -4352,7 +4593,8 @@ var items = [
 		price: "$199.99",
 		state: "MA",
 		retail: "Liquor Junction",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -4362,7 +4604,7 @@ var items = [
 		barrel: "E-M14-54",
 		age: "14yrs 5mos",
 		proof: "135",
-		finish: "None",
+		finish: "",
 		mashbill: "65/35",
 		source: "",
 		distilled: "May/2008",
@@ -4370,7 +4612,8 @@ var items = [
 		price: "$199.99",
 		state: "MA",
 		retail: "Liquor Junction",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -4380,7 +4623,7 @@ var items = [
 		barrel: "E-M14-55",
 		age: "14yrs 5mos",
 		proof: "135.52",
-		finish: "None",
+		finish: "",
 		mashbill: "65/35",
 		source: "",
 		distilled: "May/2023",
@@ -4388,7 +4631,8 @@ var items = [
 		price: "$184.99",
 		state: "MA",
 		retail: "Rapid Liquors",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -4398,7 +4642,7 @@ var items = [
 		barrel: "E-M9-28",
 		age: "9yrs",
 		proof: "131.9",
-		finish: "None",
+		finish: "",
 		mashbill: "65/35",
 		source: "",
 		distilled: "Apr/2014",
@@ -4406,7 +4650,8 @@ var items = [
 		price: "$114.99",
 		state: "MA",
 		retail: "Gordon's Wine",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -4416,7 +4661,7 @@ var items = [
 		barrel: "E-M9-35",
 		age: "9yrs 6mos",
 		proof: "132.04",
-		finish: "None",
+		finish: "",
 		mashbill: "65/35",
 		source: "",
 		distilled: "Apr/2013",
@@ -4424,8 +4669,9 @@ var items = [
 		price: "$109.99",
 		state: "MA",
 		retail: "Rapid Liquors",
-		image: ""
-		},
+		image: "",
+		label: ""
+	},
 
 	{
 		id: 247,
@@ -4434,7 +4680,7 @@ var items = [
 		barrel: "EM-8-101",
 		age: "8yrs 6mos",
 		proof: "131.26",
-		finish: "None",
+		finish: "",
 		mashbill: "65/35",
 		source: "",
 		distilled: "Apr/2014",
@@ -4442,7 +4688,8 @@ var items = [
 		price: "$99.50",
 		state: "CA",
 		retail: "Everson Royce",
-		image: "em-8-101.jpg"
+		image: "em-8-101.jpg",
+		label: ""
 	},
 
 	{
@@ -4452,7 +4699,7 @@ var items = [
 		barrel: "M-45",
 		age: "",
 		proof: "",
-		finish: "None",
+		finish: "",
 		mashbill: "",
 		source: "",
 		distilled: "",
@@ -4460,7 +4707,8 @@ var items = [
 		price: "",
 		state: "NJ",
 		retail: "The Vineyard Wines and Liquor",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -4470,7 +4718,7 @@ var items = [
 		barrel: "",
 		age: "14yrs",
 		proof: "133.8",
-		finish: "None",
+		finish: "",
 		mashbill: "65/35",
 		source: "",
 		distilled: "",
@@ -4478,7 +4726,8 @@ var items = [
 		price: "",
 		state: "KY",
 		retail: "Justin's House of Bourbon",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -4496,7 +4745,8 @@ var items = [
 		price: "",
 		state: "",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -4514,7 +4764,8 @@ var items = [
 		price: "",
 		state: "",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -4532,7 +4783,8 @@ var items = [
 		price: "",
 		state: "",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -4550,7 +4802,8 @@ var items = [
 		price: "",
 		state: "",
 		retail: "",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -4568,7 +4821,8 @@ var items = [
 		price: "$84.99",
 		state: "NJ",
 		retail: "Buy Rite",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -4586,7 +4840,8 @@ var items = [
 		price: "$89.99",
 		state: "NJ",
 		retail: "Joe Canal's & Benash Liquors",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -4604,7 +4859,8 @@ var items = [
 		price: "$84.99",
 		state: "NJ",
 		retail: "Buy Rite",
-		image: ""
+		image: "",
+		label: ""
 	},
 
 	{
@@ -4622,7 +4878,8 @@ var items = [
 		price: "$89.99",
 		state: "NJ",
 		retail: "Joe Canal's & Benash Liquors",
-		image: ""
+		image: "",
+		label: ""
 	}
 ];
 
@@ -4633,6 +4890,8 @@ var itemCount = 0;
 var urlParams = new URLSearchParams(window.location.search);
 var release = urlParams.get('id');
 
+
+// Details page
 if (release) {
     // Filter items based on release id
     var filteredItems = items.filter(function(item) {
@@ -4640,20 +4899,21 @@ if (release) {
     });
 
     // Display filtered items
-    var itemList = document.getElementById("item-list");
+    var itemList = document.getElementById("detail-list");
     itemList.innerHTML = "";
 	
     for (var i = 0; i < filteredItems.length; i++) {
         var item = filteredItems[i];
+		console.log(items);
         var itemDiv = document.createElement("div");
         itemDiv.classList.add("card");
         itemDiv.innerHTML = `
             <h2>${item.name}</h2>
-            <div class="card-content">
-                <div class="card-image">
+            <div>
+                <div>
                     ${item.image ? `<img src="images/${item.image}" height="300">` : ""}
                 </div>
-                <div class="card-text">
+                <div>
                     Barrel: ${item.barrel}<br>
                     Type: ${item.type}<br>
                     Finish: ${item.finish}<br>
@@ -4674,29 +4934,27 @@ if (release) {
     }
 } else {
 var itemList = document.getElementById("item-list");
-var countElement = document.createElement("div");
-itemList.insertBefore(countElement, itemList.firstChild);
+
 items.sort((a, b) => a.name.localeCompare(b.name));
 itemCount = items.length;
+
+
 
 for (var i = 0; i < items.length; i++) {
 	var item = items[i];
 	var itemDiv = document.createElement("div");
 	itemDiv.classList.add("card");
 	itemDiv.innerHTML = `
-	
 	<div class="card-content">
 	<div class="card-image">
-        ${item.image ? `<img src="images/${item.image}" width="100" height="100">` : ""}
+	${item.label ? `<img src="images/${item.label}">` : `<div class="card-placeholder"></div>`}
     </div>
 	<div class="card-text">
 	<div class="card-header header">${item.name}</div>
-    ${item.barrel}<br>
-    ${item.type}
+    ${item.barrel} - ${item.type}
 	<div class="finish-tag ${item.finish.toLowerCase().replace(/\s+/g, "-")}">${item.finish}</div>
 	</div>
 	</div>
-    <!-- <a href="javascript:viewItemDetails(${item.id})">View Details</a> -->
 	</div>
 	`;
 	itemList.appendChild(itemDiv);
@@ -4710,6 +4968,28 @@ for (var i = 0; i < items.length; i++) {
 	
 	var countDisplay = document.getElementById("count-display");
 	countDisplay.innerHTML = "Release count: " + itemCount;
+
+	// Filter drawer
+	const openButton = document.getElementById('open-button');
+	const closeButton = document.getElementById('close-button');
+	const filterDrawer = document.querySelector('.filterDrawer');
+	const overlay = document.querySelector('.overlay');
+
+	openButton.addEventListener('click', () => {
+		filterDrawer.classList.add('open');
+		overlay.classList.add('open');
+	});
+
+	closeButton.addEventListener('click', () => {
+		filterDrawer.classList.remove('open');
+		overlay.classList.remove('open');
+	});
+
+	overlay.addEventListener('click', () => {
+		filterDrawer.classList.remove('open');
+		overlay.classList.remove('open');
+	});
+
 }
 
 function filterItems() {
@@ -4749,8 +5029,6 @@ function updateItemList(updatedItems) {
 	itemList.innerHTML = "";
 	itemCount = updatedItems.length;
 	var count = updatedItems.length;
-	var countDiv = document.createElement("div");
-	itemList.appendChild(countDiv);
 
 	for (var i = 0; i < updatedItems.length; i++) {
 		var item = updatedItems[i];
@@ -4759,16 +5037,14 @@ function updateItemList(updatedItems) {
 		itemDiv.innerHTML = `
 			<div class="card-content">
 			<div class="card-image">
-        		${item.image ? `<img src="images/${item.image}" width="100" height="100">` : ""}
+        		${item.label ? `<img src="images/${item.label}" width="100" height="100">` : ""}
     		</div>
 			<div class="card-text">
 				<div class="card-header header">${item.name}</div>
-    			${item.barrel}<br>
-    			${item.type}
-    			<div class="finish-tag ${item.finish.toLowerCase().replace(/\s+/g, "-")}">${item.finish}</div>
+    			${item.barrel} - ${item.type}
+				${item.finish ? `<div class="finish-tag ${item.finish.toLowerCase().replace(/\s+/g, "-")}">${item.finish}</div>` : ""}
 			</div>
 			</div>
-    		<!-- <a href="javascript:viewItemDetails(${item.id})">View Details</a> -->
 			</div>
 			`;
 		itemList.appendChild(itemDiv);
@@ -4782,6 +5058,28 @@ function updateItemList(updatedItems) {
 	}
 	var countDisplay = document.getElementById("count-display");
 	countDisplay.innerHTML = "Release count: " + itemCount;
+
+	// Filter drawer
+	const openButton = document.getElementById('open-button');
+	const closeButton = document.getElementById('close-button');
+	const filterDrawer = document.querySelector('.filterDrawer');
+	const overlay = document.querySelector('.overlay');
+
+	openButton.addEventListener('click', () => {
+		filterDrawer.classList.add('open');
+		overlay.classList.add('open');
+	});
+
+	closeButton.addEventListener('click', () => {
+		filterDrawer.classList.remove('open');
+		overlay.classList.remove('open');
+	});
+
+	overlay.addEventListener('click', () => {
+		filterDrawer.classList.remove('open');
+		overlay.classList.remove('open');
+	});
+
 }
 
 

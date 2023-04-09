@@ -8,15 +8,19 @@
 <body>
 	<p class="pgTitle">Rare Character Tracker</p>
 	<div id="count-display" class="bodyCopy"></div>
+	<button id="open-button">Sort & Filter</button>
 	<br>
-	<div class="container">
-		<div class="filterBar">
-	<div id="type-links" class="bodyCopy">
-		<a href="#" onclick="filterItemsByType('')">All</a><br>
-		<a href="#" onclick="filterItemsByType('Bourbon')">Bourbon</a><br>
-		<a href="#" onclick="filterItemsByType('Rye')">Rye</a><br>
-		<a href="#" onclick="filterItemsByType('Exceptional')">Exceptional</a>
-	</div>
+	<div id="item-list" class="card-container"></div>
+
+	<div class="filterDrawer">
+	<div class="filterBar">
+		<button id="close-button">Close</button>
+		<div id="type-links" class="bodyCopy">
+			<a href="#" onclick="filterItemsByType('')">All</a><br>
+			<a href="#" onclick="filterItemsByType('Bourbon')">Bourbon</a><br>
+			<a href="#" onclick="filterItemsByType('Rye')">Rye</a><br>
+			<a href="#" onclick="filterItemsByType('Exceptional')">Exceptional</a>
+		</div>
 		<br><br>
 		<label for="finish-filter" class="bodyCopy">Finish:</label>
 		<select id="finish-filter" onchange="filterItems()">
@@ -34,9 +38,7 @@
 			<option value="White Port">White Port</option>
 		</select>
 	</div>
-	
-	<div id="item-list"></div>
-	</div>
+	<div class="overlay" id="overlay"></div>
 	<script src="index.js"></script>
 
 	<script type="module">
