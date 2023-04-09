@@ -87,136 +87,59 @@
 
 
 /* Finish tags */
-.finish-tag.madeira {
+.finish-tag {
 	position: absolute;
 	top: 0;
 	right: 0;
 	padding: 4px 8px;
 	border-radius: 4px;
-	background-color: #310d02;
 	color: #fff;
-	font-size: 12px;
+	font-size: 14px;
 	font-weight: bold;
+}
+
+.finish-tag.madeira {
+	background-color: #310d02;
 }
 
 .finish-tag.amburana {
-	position: absolute;
-	top: 0;
-	right: 0;
-	padding: 4px 8px;
-	border-radius: 4px;
 	background-color: #471304;
-	color: #fff;
-	font-size: 12px;
-	font-weight: bold;
 }
 
 .finish-tag.oloroso {
-	position: absolute;
-	top: 0;
-	right: 0;
-	padding: 4px 8px;
-	border-radius: 4px;
 	background-color: #d80835;
-	color: #fff;
-	font-size: 12px;
-	font-weight: bold;
 }
 
 .finish-tag.eucalipto {
-	position: absolute;
-	top: 0;
-	right: 0;
-	padding: 4px 8px;
-	border-radius: 4px;
 	background-color: #1d380d;
-	color: #fff;
-	font-size: 12px;
-	font-weight: bold;
 }
 
 .finish-tag.balsamo {
-	position: absolute;
-	top: 0;
-	right: 0;
-	padding: 4px 8px;
-	border-radius: 4px;
 	background-color: #2d4b1c;
-	color: #fff;
-	font-size: 12px;
-	font-weight: bold;
 }
 
 .finish-tag.barbados-rum {
-	position: absolute;
-	top: 0;
-	right: 0;
-	padding: 4px 8px;
-	border-radius: 4px;
 	background-color: #2d4b1c;
-	color: #fff;
-	font-size: 12px;
-	font-weight: bold;
 }
 
 .finish-tag.cognac {
-	position: absolute;
-	top: 0;
-	right: 0;
-	padding: 4px 8px;
-	border-radius: 4px;
 	background-color: #2d4b1c;
-	color: #fff;
-	font-size: 12px;
-	font-weight: bold;
 }
 
 .finish-tag.jaqueira {
-	position: absolute;
-	top: 0;
-	right: 0;
-	padding: 4px 8px;
-	border-radius: 4px;
 	background-color: #4d0a0f;
-	color: #fff;
-	font-size: 12px;
-	font-weight: bold;
 }
 
 .finish-tag.jamaican-rum {
-	position: absolute;
-	top: 0;
-	right: 0;
-	padding: 4px 8px;
-	border-radius: 4px;
 	background-color: #2d4b1c;
-	color: #fff;
-	font-size: 12px;
-	font-weight: bold;
 }
 
 .finish-tag.px-sherry {
-	position: absolute;
-	top: 0;
-	right: 0;
-	padding: 4px 8px;
-	border-radius: 4px;
 	background-color: #5f0d4d;
-	color: #fff;
-	font-size: 12px;
-	font-weight: bold;
 }
 
 .finish-tag.white-port {
-	position: absolute;
-	top: 0;
-	right: 0;
-	padding: 4px 8px;
-	border-radius: 4px;
 	background-color: #a9aca6;
-	color: #fff;
-	font-size: 12px;
-	font-weight: bold;
 }
 
 
