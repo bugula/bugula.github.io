@@ -1,3 +1,14 @@
+@font-face {
+	font-family: PublicSans;
+	src: url(public_sans/PublicSans-Regular.woff);
+}
+
+@font-face {
+	font-family: PublicSansBold;
+	src: url(public_sans/PublicSans-Bold.woff);
+	font-weight: bold;
+  }
+
 /* Card styles */
 .card-container {
 	display: grid;
@@ -39,7 +50,7 @@
 }
 
 .card-text {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: PublicSans;
 	font-size: 14px;
 	line-height: 1.5;
 	margin-top: 0px;
@@ -52,9 +63,10 @@
 }
 
 .card-header {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font-family: PublicSansBold;
+    font-size: 16px;
     margin-top: 0;
+	font-weight: bold;
 }
 
 .image-placeholder {
@@ -273,7 +285,7 @@ select {
 
 /* Text styles */
 .pgTitle {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: PublicSans;
 	font-size: 32px;
 	font-weight: bold;
 	margin-top: 0;
@@ -281,7 +293,7 @@ select {
 }
 
 .bodyCopy {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: PublicSans;
 	font-size: 14px;	
 }
 
