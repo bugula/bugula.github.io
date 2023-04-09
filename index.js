@@ -72,7 +72,7 @@ var items = [
 		state: "CA",
 		retail: "",
 		image: "",
-		label: ""
+		label: "irt-42a-l.jpg"
 	},
 
 	{
@@ -126,10 +126,10 @@ var items = [
 		distilled: "",
 		bottled: "",
 		price: "",
-		state: "DC",
+		state: "",
 		retail: "",
 		image: "",
-		label: ""
+		label: "rio-248-l.jpg"
 	},
 
 	{
@@ -1649,7 +1649,7 @@ var items = [
 		state: "DC",
 		retail: "",
 		image: "",
-		label: ""
+		label: "rio-290-l.jpg"
 	},
 
 	{
@@ -2656,7 +2656,7 @@ var items = [
 		state: "NV",
 		retail: "",
 		image: "",
-		label: ""
+		label: "irt-31-l.jpg"
 	},
 
 	{
@@ -2751,7 +2751,7 @@ var items = [
 		state: "DC",
 		retail: "",
 		image: "",
-		label: ""
+		label: "rio-221-l.jpg"
 	},
 
 	{
@@ -3169,7 +3169,7 @@ var items = [
 		state: "CA",
 		retail: "",
 		image: "",
-		label: ""
+		label: "i95-10-l.jpg"
 	},
 
 	{
@@ -4259,7 +4259,7 @@ var items = [
 		id: 225,
 		name: "T8ke & Rare Bird 101",
 		type: "Rye",
-		barrel: "AMB-0-3",
+		barrel: "AMB-R-03",
 		age: "5yrs 11mos",
 		proof: "114.76",
 		finish: "Amburana",
@@ -4271,7 +4271,7 @@ var items = [
 		state: "DC",
 		retail: "",
 		image: "",
-		label: ""
+		label: "amb-r-03-l.jpg"
 	},
 
 	{
@@ -4480,7 +4480,7 @@ var items = [
 		state: "",
 		retail: "",
 		image: "",
-		label: ""
+		label: "unknown-barbados-rum-l.jpg"
 	},
 
 	{
@@ -4746,7 +4746,7 @@ var items = [
 		state: "",
 		retail: "",
 		image: "",
-		label: ""
+		label: "unknown-exceptional-cognac-l.jpg"
 	},
 
 	{
@@ -4765,7 +4765,7 @@ var items = [
 		state: "",
 		retail: "",
 		image: "",
-		label: ""
+		label: "unknown-exceptional-barbados-rum-l.jpg"
 	},
 
 	{
@@ -4784,7 +4784,7 @@ var items = [
 		state: "",
 		retail: "",
 		image: "",
-		label: ""
+		label: "unknown-exceptional-madeira-l.jpg"
 	},
 
 	{
