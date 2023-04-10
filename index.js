@@ -33,8 +33,8 @@ var items = [
 		price: "",
 		state: "DC",
 		retail: "",
-		image: "",
-		label: ""
+		image: "rio-289.jpg",
+		label: "rio-289-l.jpg"
 	},
 
 	{
@@ -110,7 +110,7 @@ var items = [
 		state: "TN",
 		retail: "Corks Wine & Spirits",
 		image: "",
-		label: ""
+		label: "irt-26-l.jpg"
 	},
 
 	{
@@ -205,7 +205,7 @@ var items = [
 		state: "KY",
 		retail: "",
 		image: "",
-		label: ""
+		label: "irt-55-l.jpg"
 	},
 
 	{
@@ -224,7 +224,7 @@ var items = [
 		state: "MA",
 		retail: "Burlington Wine & Spirits",
 		image: "",
-		label: ""
+		label: "rio-227-l.jpg"
 	},
 
 	{
@@ -262,7 +262,7 @@ var items = [
 		state: "TN",
 		retail: "Buster's Liquor & Wine",
 		image: "",
-		label: ""
+		label: "rio-228-l.jpg"
 	},
 
 	{
@@ -319,7 +319,7 @@ var items = [
 		state: "DC",
 		retail: "",
 		image: "",
-		label: ""
+		label: "rio-287-l.jpg"
 	},
 
 	{
@@ -395,7 +395,7 @@ var items = [
 		state: "FL",
 		retail: "",
 		image: "",
-		label: ""
+		label: "rio-224-l.jpg"
 	},
 
 	{
@@ -414,7 +414,7 @@ var items = [
 		state: "NV",
 		retail: "NFS",
 		image: "",
-		label: ""
+		label: "mad-b-05-l.jpg"
 	},
 
 	{
@@ -433,7 +433,7 @@ var items = [
 		state: "NV",
 		retail: "NFS",
 		image: "",
-		label: ""
+		label: "rio-269-l.jpg"
 	},
 
 	{
@@ -452,7 +452,7 @@ var items = [
 		state: "CT",
 		retail: "Curiada",
 		image: "",
-		label: ""
+		label: "irt-02-l.jpg"
 	},
 
 	{
@@ -642,7 +642,7 @@ var items = [
 		state: "CA",
 		retail: "Eureka",
 		image: "",
-		label: ""
+		label: "i21-03-l.jpg"
 	},
 
 	{
@@ -661,7 +661,7 @@ var items = [
 		state: "CA",
 		retail: "Eureka",
 		image: "",
-		label: ""
+		label: "i21-07-l.jpg"
 	},
 
 	{
@@ -680,7 +680,7 @@ var items = [
 		state: "CA",
 		retail: "Eureka",
 		image: "",
-		label: ""
+		label: "i21-09-l.jpg"
 	},
 
 	{
@@ -699,7 +699,7 @@ var items = [
 		state: "CA",
 		retail: "Eureka",
 		image: "",
-		label: ""
+		label: "i21-11-l.jpg"
 	},
 
 	{
@@ -718,7 +718,7 @@ var items = [
 		state: "CA",
 		retail: "Eureka",
 		image: "",
-		label: ""
+		label: "i21-14-l.jpg"
 	},
 
 	{
@@ -737,7 +737,7 @@ var items = [
 		state: "CA",
 		retail: "Eureka",
 		image: "",
-		label: ""
+		label: "i21-15-l.jpg"
 	},
 
 	{
@@ -756,7 +756,7 @@ var items = [
 		state: "CA",
 		retail: "Eureka",
 		image: "",
-		label: ""
+		label: "i21-20-l.jpg"
 	},
 
 	{
@@ -775,7 +775,7 @@ var items = [
 		state: "CA",
 		retail: "",
 		image: "",
-		label: ""
+		label: "rio-239-l.jpg"
 	},
 
 	{
@@ -851,7 +851,7 @@ var items = [
 		state: "FL",
 		retail: "Sunshine Liquor",
 		image: "",
-		label: ""
+		label: "bal-b-02-l.jpg"
 	},
 
 	{
@@ -1022,7 +1022,7 @@ var items = [
 		state: "KY",
 		retail: "",
 		image: "",
-		label: ""
+		label: "i21-08-l.jpg"
 	},
 
 	{
@@ -1117,7 +1117,7 @@ var items = [
 		state: "CA",
 		retail: "Everson Royce",
 		image: "",
-		label: ""
+		label: "jr-1-l.jpg"
 	},
 
 	{
@@ -1250,7 +1250,7 @@ var items = [
 		state: "NV",
 		retail: "Khoury's",
 		image: "",
-		label: ""
+		label: "wp-b-05-l.jpg"
 	},
 
 	{
@@ -1325,8 +1325,8 @@ var items = [
 		price: "",
 		state: "NV",
 		retail: "Lee's Discount Liquor",
-		image: "irt-18.jpg",
-		label: "irt-18-l.jpg"
+		image: "",
+		label: "irt-18z-l.jpg"
 	},
 
 	{
@@ -1345,7 +1345,7 @@ var items = [
 		state: "NV",
 		retail: "Lee's Discount Liquor",
 		image: "",
-		label: ""
+		label: "ols-b-05-l.jpg"
 	},
 
 	{
@@ -1364,7 +1364,7 @@ var items = [
 		state: "NV",
 		retail: "Lee's Discount Liquor",
 		image: "",
-		label: ""
+		label: "rio-232-l.jpg"
 	},
 
 	{
@@ -1383,7 +1383,7 @@ var items = [
 		state: "NV",
 		retail: "Lee's Discount Liquor",
 		image: "",
-		label: ""
+		label: "rio-244-l.jpg"
 	},
 
 	{
@@ -1402,7 +1402,7 @@ var items = [
 		state: "DC",
 		retail: "",
 		image: "",
-		label: ""
+		label: "rio-262-l.jpg"
 	},
 
 	{
@@ -1421,7 +1421,7 @@ var items = [
 		state: "KY",
 		retail: "Liquor Barn",
 		image: "",
-		label: ""
+		label: "irt-38-l.jpg"
 	},
 
 	{
@@ -1440,7 +1440,7 @@ var items = [
 		state: "KY",
 		retail: "Liquor Barn",
 		image: "",
-		label: ""
+		label: "rio-300-l.jpg"
 	},
 
 	{
@@ -1459,14 +1459,14 @@ var items = [
 		state: "KY",
 		retail: "Liquor Barn",
 		image: "",
-		label: ""
+		label: "i21-12-l.jpg"
 	},
 
 	{
 		id: 78,
 		name: "Liquor Junction & Mass Bourbon Alliance",
 		type: "Bourbon",
-		barrel: "OLS-13-04",
+		barrel: "OLS-B-04",
 		age: "6yrs 7mos",
 		proof: "110.1",
 		finish: "Oloroso",
@@ -1477,8 +1477,8 @@ var items = [
 		price: "",
 		state: "MA",
 		retail: "Liquor Junction",
-		image: "",
-		label: ""
+		image: "ols-b-04.jpg",
+		label: "ols-b-04-l.jpg"
 	},
 
 	{
@@ -1630,7 +1630,7 @@ var items = [
 		state: "TN",
 		retail: "",
 		image: "",
-		label: ""
+		label: "irt-53-l.jpg"
 	},
 
 	{
@@ -1915,7 +1915,7 @@ var items = [
 		state: "",
 		retail: "",
 		image: "",
-		label: ""
+		label: "mad-4-l.jpg"
 	},
 
 	{
@@ -1941,7 +1941,7 @@ var items = [
 		id: 103,
 		name: "OBC Kitchen",
 		type: "Bourbon",
-		barrel: "121-13-B",
+		barrel: "I21-13-B",
 		age: "4yrs 4mos",
 		proof: "117.6",
 		finish: "",
@@ -1953,7 +1953,7 @@ var items = [
 		state: "KY",
 		retail: "",
 		image: "",
-		label: ""
+		label: "i21-13b-l.jpg"
 	},
 
 	{
@@ -1971,8 +1971,8 @@ var items = [
 		price: "",
 		state: "CA",
 		retail: "",
-		image: "",
-		label: ""
+		image: "irt-18.jpg",
+		label: "irt-18-l.jpg"
 	},
 
 	{
@@ -2036,7 +2036,7 @@ var items = [
 		id: 108,
 		name: "Obliteration",
 		type: "Bourbon",
-		barrel: "",
+		barrel: "Unicorn",
 		age: "14yrs",
 		proof: "143.8",
 		finish: "",
@@ -2143,7 +2143,7 @@ var items = [
 		state: "MA",
 		retail: "Rapid Liquors",
 		image: "",
-		label: ""
+		label: "rio-236-l.jpg"
 	},
 
 	{
@@ -2200,7 +2200,7 @@ var items = [
 		state: "TN",
 		retail: "Red Dog",
 		image: "",
-		label: ""
+		label: "irt-17-l.jpg"
 	},
 
 	{
@@ -2218,8 +2218,8 @@ var items = [
 		price: "$99.99",
 		state: "TN",
 		retail: "Red Dog",
-		image: "",
-		label: ""
+		image: "jr-b-02.jpg",
+		label: "jr-b-02-l.jpg"
 	},
 
 	{
@@ -2237,8 +2237,8 @@ var items = [
 		price: "$109.99",
 		state: "TN",
 		retail: "Red Dog",
-		image: "",
-		label: ""
+		image: "wp-b-04.jpg",
+		label: "wp-b-04-l.jpg"
 	},
 
 	{
@@ -2276,7 +2276,7 @@ var items = [
 		state: "CA",
 		retail: "Republique",
 		image: "",
-		label: ""
+		label: "rio-264-l.jpg"
 	},
 
 	{
@@ -2295,7 +2295,7 @@ var items = [
 		state: "KY",
 		retail: "",
 		image: "",
-		label: ""
+		label: "irt-25-2-l.jpg"
 	},
 
 	{
@@ -2352,7 +2352,7 @@ var items = [
 		state: "NV",
 		retail: "",
 		image: "",
-		label: ""
+		label: "irt-23-l.jpg"
 	},
 
 	{
@@ -2371,7 +2371,7 @@ var items = [
 		state: "NV",
 		retail: "",
 		image: "",
-		label: ""
+		label: "mad-1-l.jpg"
 	},
 
 	{
@@ -2409,7 +2409,7 @@ var items = [
 		state: "CA",
 		retail: "F&D Wine and Spirits",
 		image: "",
-		label: ""
+		label: "irt-13-l.jpg"
 	},
 
 	{
@@ -2599,7 +2599,7 @@ var items = [
 		state: "TN",
 		retail: "",
 		image: "",
-		label: ""
+		label: "rio-282-l.jpg"
 	},
 
 	{
@@ -2777,7 +2777,7 @@ var items = [
 		id: 147,
 		name: "Top's Liquor",
 		type: "Bourbon",
-		barrel: "MAD-B-58",
+		barrel: "MAD-2",
 		age: "5yrs",
 		proof: "112.34",
 		finish: "Madeira",
@@ -2789,7 +2789,7 @@ var items = [
 		state: "AZ",
 		retail: "Top's Liquor",
 		image: "",
-		label: ""
+		label: "mad-2-l.jpg"
 	},
 
 	{
@@ -2808,7 +2808,7 @@ var items = [
 		state: "AZ",
 		retail: "Top's Liquor",
 		image: "",
-		label: ""
+		label: "rio-206-l.jpg"
 	},
 
 	{
@@ -3264,7 +3264,7 @@ var items = [
 		state: "TN",
 		retail: "Buster's Liquor & Wine",
 		image: "",
-		label: ""
+		label: "kry-542-a-l.jpg"
 	},
 
 	{
@@ -3302,7 +3302,7 @@ var items = [
 		state: "DC",
 		retail: "",
 		image: "",
-		label: ""
+		label: "kry-546-l.jpg"
 	},
 
 	{
@@ -3340,7 +3340,7 @@ var items = [
 		state: "NV",
 		retail: "NFS",
 		image: "",
-		label: ""
+		label: "amb-r-03-a-l.jpg"
 	},
 
 	{
@@ -3359,7 +3359,7 @@ var items = [
 		state: "NV",
 		retail: "NFS",
 		image: "",
-		label: ""
+		label: "kry-530-l.jpg"
 	},
 
 	{
@@ -3435,7 +3435,7 @@ var items = [
 		state: "CA",
 		retail: "",
 		image: "",
-		label: ""
+		label: "kry-529-l.jpg"
 	},
 
 	{
@@ -3454,7 +3454,7 @@ var items = [
 		state: "CA",
 		retail: "",
 		image: "",
-		label: ""
+		label: "kry-541-l.jpg"
 	},
 
 	{
@@ -3537,7 +3537,7 @@ var items = [
 		id: 187,
 		name: "Golden Tiki",
 		type: "Rye",
-		barrel: "RHY-07-A",
+		barrel: "RHY-7-A",
 		age: "4yrs 9mos",
 		proof: "103",
 		finish: "",
@@ -3549,7 +3549,7 @@ var items = [
 		state: "NV",
 		retail: "",
 		image: "",
-		label: ""
+		label: "rhy-7a-l.jpg"
 	},
 
 	{
@@ -3625,7 +3625,7 @@ var items = [
 		state: "CA",
 		retail: "Hi-Time Wine Cellars",
 		image: "",
-		label: ""
+		label: "tnr-02-l.jpg"
 	},
 
 	{
@@ -3765,7 +3765,7 @@ var items = [
 		id: 199,
 		name: "Lee's Discount Liquor",
 		type: "Rye",
-		barrel: "EUC-R-01",
+		barrel: "EUC-B-1",
 		age: "5yrs",
 		proof: "115.1",
 		finish: "Eucalipto",
@@ -3777,7 +3777,7 @@ var items = [
 		state: "NV",
 		retail: "Lee's Discount Liquor",
 		image: "",
-		label: ""
+		label: "euc-b-1-l.jpg"
 	},
 
 	{
@@ -3815,7 +3815,7 @@ var items = [
 		state: "MA",
 		retail: "Liquor Junction",
 		image: "",
-		label: ""
+		label: "kry-549-l.jpg"
 	},
 
 	{
@@ -3834,7 +3834,7 @@ var items = [
 		state: "NV",
 		retail: "LiquorLineup.com",
 		image: "",
-		label: ""
+		label: "kry-564z-l.jpg"
 	},
 
 	{
@@ -3872,7 +3872,7 @@ var items = [
 		state: "MA",
 		retail: "",
 		image: "",
-		label: ""
+		label: "kry-526-a-l.jpg"
 	},
 
 	{
@@ -3910,7 +3910,7 @@ var items = [
 		state: "",
 		retail: "",
 		image: "",
-		label: ""
+		label: "kry-534-a-l.jpg"
 	},
 
 	{
@@ -3948,7 +3948,7 @@ var items = [
 		state: "CA",
 		retail: "",
 		image: "",
-		label: ""
+		label: "kry-548-l.jpg"
 	},
 
 	{
@@ -3985,8 +3985,8 @@ var items = [
 		price: "",
 		state: "CA",
 		retail: "",
-		image: "",
-		label: ""
+		image: "tnr-06a.jpg",
+		label: "tnr-06a-l.jpg"
 	},
 
 	{
@@ -4024,7 +4024,7 @@ var items = [
 		state: "MA",
 		retail: "",
 		image: "",
-		label: ""
+		label: "kry-557-a-l.jpg"
 	},
 
 	{
@@ -4062,7 +4062,7 @@ var items = [
 		state: "TN",
 		retail: "Red Dog",
 		image: "",
-		label: ""
+		label: "kry-561-l.jpg"
 	},
 
 	{
@@ -4081,7 +4081,7 @@ var items = [
 		state: "CA",
 		retail: "Republique",
 		image: "",
-		label: ""
+		label: "kry-524-l.jpg"
 	},
 
 	{
@@ -4099,7 +4099,7 @@ var items = [
 		price: "$92.99",
 		state: "CA",
 		retail: "ReserveBar",
-		image: "amb-r-06..png",
+		image: "amb-r-06.png",
 		label: "amb-r-06-l.jpg"
 	},
 
@@ -4118,7 +4118,7 @@ var items = [
 		price: "$92.99",
 		state: "CA",
 		retail: "ReserveBar",
-		image: "jaq-r-01..png",
+		image: "jaq-r-01.png",
 		label: "jaq-r-01-l.jpg"
 	},
 
@@ -4138,7 +4138,7 @@ var items = [
 		state: "RI",
 		retail: "",
 		image: "",
-		label: ""
+		label: "amb-r-09-l.jpg"
 	},
 
 	{
@@ -4157,7 +4157,7 @@ var items = [
 		state: "NV",
 		retail: "",
 		image: "",
-		label: ""
+		label: "kry-542-l.jpg"
 	},
 
 	{
@@ -4176,7 +4176,7 @@ var items = [
 		state: "CA",
 		retail: "F&D Wine and Spirits",
 		image: "",
-		label: ""
+		label: "kry-527-l.jpg"
 	},
 
 	{
@@ -4232,8 +4232,8 @@ var items = [
 		price: "",
 		state: "OR",
 		retail: "",
-		image: "",
-		label: ""
+		image: "kry-522.jpg",
+		label: "kry-522-l.jpg"
 	},
 
 	{
@@ -4251,8 +4251,8 @@ var items = [
 		price: "$89.95",
 		state: "OR",
 		retail: "",
-		image: "",
-		label: ""
+		image: "kry-535.jpg",
+		label: "kry-535-l.jpg"
 	},
 
 	{
@@ -4309,7 +4309,7 @@ var items = [
 		state: "",
 		retail: "",
 		image: "",
-		label: ""
+		label: "kry-561z-l.jpg"
 	},
 
 	{
@@ -4555,8 +4555,8 @@ var items = [
 		price: "",
 		state: "TN",
 		retail: "Mr Whiskers Wines & Liquors",
-		image: "",
-		label: ""
+		image: "e-m11-06.jpg",
+		label: "e-m11-06-l.jpg"
 	},
 
 	{
@@ -4594,7 +4594,7 @@ var items = [
 		state: "MA",
 		retail: "Liquor Junction",
 		image: "",
-		label: ""
+		label: "e-m14-47-l.jpg"
 	},
 
 	{
@@ -4613,7 +4613,7 @@ var items = [
 		state: "MA",
 		retail: "Liquor Junction",
 		image: "",
-		label: ""
+		label: "e-m14-54-l.jpg"
 	},
 
 	{
@@ -4951,7 +4951,8 @@ for (var i = 0; i < items.length; i++) {
     </div>
 	<div class="card-text">
 	<div class="card-header header">${item.name}</div>
-    ${item.barrel} - ${item.type}
+    ${item.barrel}<br>
+	${item.type}
 	<div class="finish-tag ${item.finish.toLowerCase().replace(/\s+/g, "-")}">${item.finish}</div>
 	</div>
 	</div>
@@ -5041,7 +5042,8 @@ function updateItemList(updatedItems) {
     		</div>
 			<div class="card-text">
 				<div class="card-header header">${item.name}</div>
-    			${item.barrel} - ${item.type}
+    			${item.barrel}<br>
+				${item.type}
 				${item.finish ? `<div class="finish-tag ${item.finish.toLowerCase().replace(/\s+/g, "-")}">${item.finish}</div>` : ""}
 			</div>
 			</div>

@@ -116,7 +116,7 @@
 }
 
 .finish-tag.balsamo {
-	background-color: #2d4b1c;
+	background-color: #121c30;
 }
 
 .finish-tag.barbados-rum {
@@ -207,13 +207,13 @@ select {
 	visibility: hidden;
 	transition: opacity 0.5s ease-in-out;
 	z-index: 1;
-  }
-  
-  .filterDrawer.open .overlay {
+}
+
+.filterDrawer.open .overlay {
 	opacity: 1;
 	visibility: visible;
 	z-index: 0;
-  }
+}
 
 .overlay.open {
 	opacity: 1;
