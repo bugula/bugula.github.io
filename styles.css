@@ -168,9 +168,9 @@
 }
 
 
+
+
 /* Filter drawer */
-
-
 select {
 	display: block;
 	margin-bottom: 10px;
@@ -222,12 +222,16 @@ select {
 
 
 
-.utility {
+.utilityBar {
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 50px;
 	background-color: black;
+}
+
+.utilityBar.text {
+	color: white;
 }
 
 .hero {
@@ -242,7 +246,7 @@ select {
 }
 
 
-/* Text styles */
+/* Global styles */
 .pgTitle {
 	font-family: PublicSans;
 	font-size: 32px;
