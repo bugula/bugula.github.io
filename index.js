@@ -1155,7 +1155,7 @@ var items = [
 		state: "KY",
 		retail: "Justin's House of Bourbon",
 		image: "",
-		label: ""
+		label: "rio-256-l.jpg"
 	},
 
 	{
