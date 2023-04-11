@@ -300,7 +300,7 @@ var items = [
 		state: "CA",
 		retail: "",
 		image: "",
-		label: ""
+		label: "irt-33-l.jpg"
 	},
 
 	{
@@ -357,7 +357,7 @@ var items = [
 		state: "NV",
 		retail: "",
 		image: "",
-		label: ""
+		label: "rio-296-l.jpg"
 	},
 
 	{
@@ -604,7 +604,7 @@ var items = [
 		state: "CA",
 		retail: "Eureka",
 		image: "",
-		label: ""
+		label: "rio-243-l.jpg"
 	},
 
 	{
@@ -1288,7 +1288,7 @@ var items = [
 		state: "TN",
 		retail: "",
 		image: "",
-		label: ""
+		label: "irt-10-l.jpg"
 	},
 
 	{
@@ -1573,7 +1573,7 @@ var items = [
 		state: "NV",
 		retail: "",
 		image: "",
-		label: ""
+		label: "rio-204-l.jpg"
 	},
 
 	{
@@ -1668,7 +1668,7 @@ var items = [
 		state: "NV",
 		retail: "",
 		image: "",
-		label: ""
+		label: "rio-251-l.jpg"
 	},
 
 	{
@@ -1687,7 +1687,7 @@ var items = [
 		state: "NV",
 		retail: "",
 		image: "",
-		label: ""
+		label: "rio-201-l.jpg"
 	},
 
 	{
@@ -1858,7 +1858,7 @@ var items = [
 		state: "",
 		retail: "",
 		image: "",
-		label: ""
+		label: "rio-218-l.jpg"
 	},
 
 	{
@@ -1877,7 +1877,7 @@ var items = [
 		state: "TN",
 		retail: "Mr Whiskers Wines & Liquors",
 		image: "",
-		label: ""
+		label: "irt-3-l.jpg"
 	},
 
 	{
@@ -2333,7 +2333,7 @@ var items = [
 		state: "KY",
 		retail: "",
 		image: "",
-		label: ""
+		label: "rio-286a-l.jpg"
 	},
 
 	{
@@ -2390,7 +2390,7 @@ var items = [
 		state: "NV",
 		retail: "",
 		image: "",
-		label: ""
+		label: "rio-298-l.jpg"
 	},
 
 	{
@@ -2641,25 +2641,6 @@ var items = [
 	},
 
 	{
-		id: 140,
-		name: "Spiegelworld",
-		type: "Bourbon",
-		barrel: "IRT-31",
-		age: "5yrs 7mos",
-		proof: "119.9",
-		finish: "",
-		mashbill: "60/36/4",
-		source: "MGP",
-		distilled: "11/16",
-		bottled: "6/22",
-		price: "$250.00",
-		state: "NV",
-		retail: "",
-		image: "",
-		label: "irt-31-l.jpg"
-	},
-
-	{
 		id: 141,
 		name: "Spiegelworld",
 		type: "Bourbon",
@@ -2675,7 +2656,7 @@ var items = [
 		state: "NV",
 		retail: "",
 		image: "",
-		label: ""
+		label: "irt-31-l.jpg"
 	},
 
 	{
@@ -2694,7 +2675,7 @@ var items = [
 		state: "NV",
 		retail: "",
 		image: "",
-		label: ""
+		label: "kht-22-l.jpg"
 	},
 
 	{
@@ -3321,7 +3302,7 @@ var items = [
 		state: "DC",
 		retail: "",
 		image: "",
-		label: ""
+		label: "kry-564zz-l.jpg"
 	},
 
 	{
@@ -3530,7 +3511,7 @@ var items = [
 		state: "NY",
 		retail: "NFS",
 		image: "",
-		label: ""
+		label: "rhy-17b-l.jpg"
 	},
 
 	{
@@ -3891,7 +3872,7 @@ var items = [
 		state: "NV",
 		retail: "",
 		image: "",
-		label: ""
+		label: "tnr-05-l.jpg"
 	},
 
 	{
@@ -4214,7 +4195,7 @@ var items = [
 		state: "NV",
 		retail: "",
 		image: "",
-		label: ""
+		label: "tnr-03-l.jpg"
 	},
 
 	{
@@ -4385,7 +4366,7 @@ var items = [
 		state: "NV",
 		retail: "",
 		image: "",
-		label: ""
+		label: "wp-r-02a.jpg"
 	},
 
 	{
