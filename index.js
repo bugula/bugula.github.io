@@ -927,7 +927,7 @@ var items = [
 		state: "CA",
 		retail: "",
 		image: "",
-		label: ""
+		label: "irt-05-l.jpg"
 	},
 
 	{
