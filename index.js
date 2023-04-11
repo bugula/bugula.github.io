@@ -14,8 +14,8 @@ var items = [
 		price: "",
 		state: "NV",
 		retail: "",
-		image: "",
-		label: ""
+		image: "ols-b-1.jpg",
+		label: "ols-b-1-l.jpg"
 	},
 
 	{
@@ -4373,7 +4373,7 @@ var items = [
 		id: 231,
 		name: "Velvet Monkey",
 		type: "Rye",
-		barrel: "WP-R-2-A",
+		barrel: "WP-R-02-A",
 		age: "6yrs 2mos",
 		proof: "114.18",
 		finish: "White Port",
@@ -4392,7 +4392,7 @@ var items = [
 		id: 232,
 		name: "Velvet Monkey",
 		type: "Rye",
-		barrel: "WP-R-2-B",
+		barrel: "WP-R-02-B",
 		age: "6yrs 2mos",
 		proof: "114.18",
 		finish: "White Port",
@@ -4403,8 +4403,8 @@ var items = [
 		price: "",
 		state: "NV",
 		retail: "",
-		image: "",
-		label: ""
+		image: "wp-r-02-b.jpg",
+		label: "wp-r-02-b-l.jpg"
 	},
 
 	{
@@ -4808,7 +4808,7 @@ var items = [
 
 	{
 		id: 254,
-		name: "The Rite Selection",
+		name: "Rite Selection",
 		type: "Bourbon",
 		barrel: "MAD-B-09",
 		age: "6yrs 7mos",
@@ -4846,7 +4846,7 @@ var items = [
 
 	{
 		id: 256,
-		name: "The Rite Selection",
+		name: "Rite Selection",
 		type: "Rye",
 		barrel: "KRY-549",
 		age: "6yrs 6mos",
