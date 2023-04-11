@@ -2617,8 +2617,8 @@ var items = [
 		price: "$99.99",
 		state: "AZ",
 		retail: "Batch",
-		image: "",
-		label: ""
+		image: "wp-b-03.jpg",
+		label: "wp-b-03-l.jpg"
 	},
 
 	{
