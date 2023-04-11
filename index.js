@@ -1504,7 +1504,7 @@ var items = [
 		id: 80,
 		name: "Littlebear Bottleshop",
 		type: "Bourbon",
-		barrel: "IRT-42-B",
+		barrel: "IRT-42B",
 		age: "5yrs",
 		proof: "120.76",
 		finish: "",
@@ -1514,9 +1514,9 @@ var items = [
 		bottled: "",
 		price: "",
 		state: "CA",
-		retail: "",
+		retail: "Littlebear Bottleshop",
 		image: "",
-		label: ""
+		label: "irt-42b-l.jpg"
 	},
 
 	{
@@ -1533,9 +1533,9 @@ var items = [
 		bottled: "",
 		price: "",
 		state: "CA",
-		retail: "",
-		image: "",
-		label: ""
+		retail: "Littlebear Bottleshop",
+		image: "ols-b06.jpg",
+		label: "ols-b06-l.jpg"
 	},
 
 	{
@@ -3841,7 +3841,7 @@ var items = [
 		id: 203,
 		name: "Littlebear Bottleshop",
 		type: "Rye",
-		barrel: "AMB-R-02-A",
+		barrel: "AMB-R-2-A",
 		age: "6yrs",
 		proof: "115.8",
 		finish: "Amburana",
@@ -3851,9 +3851,9 @@ var items = [
 		bottled: "",
 		price: "",
 		state: "CA",
-		retail: "",
-		image: "",
-		label: ""
+		retail: "Littlebear Bottleshop",
+		image: "amb-r-2-a.jpg",
+		label: "amb-r-2-a-l.jpg"
 	},
 
 	{
