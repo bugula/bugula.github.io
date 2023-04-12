@@ -6,7 +6,7 @@
 </head>
 
 <body>
-	<div class="utilityBar"><div class="utilityBar text"><a href="acct.html">Create Account</a> | Sign In | About</div></div>
+	<div class="utilityBar"><div class="utilityBar text"><a href="acct.html">Sign in or Create Account</a> | About</div></div>
 	<div class="hero"><p class="pgTitle">Rare Character Tracker</p></div>
 	<div>
 		<div id="count-display" class="bodyCopy"></div>
@@ -17,7 +17,10 @@
 
 	<div class="filterDrawer">
 	<div class="filterBar">
-		<button id="close-button">Close</button>
+		SORT & FILTER <button id="close-button">Close</button><br>
+		VIEW: Grid / List<br>
+		FILTER:<br>
+		TYPE<br>
 		<div id="type-links" class="bodyCopy">
 			<a href="#" onclick="filterItemsByType('')">All</a><br>
 			<a href="#" onclick="filterItemsByType('Bourbon')">Bourbon</a><br>
@@ -25,7 +28,7 @@
 			<a href="#" onclick="filterItemsByType('Exceptional')">Exceptional</a>
 		</div>
 		<br><br>
-		<label for="finish-filter" class="bodyCopy">Finish:</label>
+		FINISH: (Make checkboxes)
 		<select id="finish-filter" onchange="filterItems()">
   			<option value="">All</option>
 			<option value="None">No Finish</option>
@@ -40,6 +43,8 @@
   			<option value="Rum">Rum</option>
 			<option value="White Port">White Port</option>
 		</select>
+		<br><br>
+		Results per page (add pagination)
 	</div>
 	<div class="overlay" id="overlay"></div>
 	<script src="index.js"></script>
