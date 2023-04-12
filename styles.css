@@ -124,7 +124,7 @@
 }
 
 .finish-tag.cognac {
-	background-color: #2d4b1c;
+	background-color: #152e80;
 }
 
 .finish-tag.jaqueira {
@@ -266,4 +266,22 @@ body {
 	width: 100%;
 	margin: 0;
 	padding: 0;
+}
+
+
+
+
+/* Details page */
+.detail-container {
+	display: grid;
+	grid-template-columns: 200px auto;
+	column-gap: 30px;
+}
+
+.detail-container div {
+	display: inline-grid;
+}
+
+.detail-container img {
+	align-items: center;
 }

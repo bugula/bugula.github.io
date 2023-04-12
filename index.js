@@ -4887,14 +4887,13 @@ if (release) {
         var item = filteredItems[i];
 		console.log(items);
         var itemDiv = document.createElement("div");
-        itemDiv.classList.add("card");
+        itemDiv.classList.add("detail-container");
         itemDiv.innerHTML = `
-            <h2>${item.name}</h2>
-            <div>
                 <div>
                     ${item.image ? `<img src="images/${item.image}" height="300">` : ""}
                 </div>
                 <div>
+					<h2>${item.name}</h2>
                     Barrel: ${item.barrel}<br>
                     Type: ${item.type}<br>
                     Finish: ${item.finish}<br>
@@ -4908,8 +4907,6 @@ if (release) {
 					Release state: ${item.state}<br>
 					Retail partner: ${item.retail}
                 </div>
-            </div>
-            <a href="index.html">Back</a>
         `;
         itemList.appendChild(itemDiv);
     }
