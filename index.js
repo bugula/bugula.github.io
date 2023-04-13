@@ -5082,7 +5082,7 @@ var items = [
 	{
 		id: 257,
 		name: "Joe Canal's / Benash Liquors",
-		type: "Rye",		
+		type: "Rye",
 		series: "Single Barrel",
 		barrel: "KRY-518",
 		age: "6yrs 7mos",
@@ -5102,10 +5102,11 @@ var items = [
 	{
 		id: 258,
 		name: "Warped Cigars",
-		type: "",
-		barrel: "",
-		age: "",
-		proof: "",
+		type: "Bourbon",
+		series: "Single Barrel",
+		barrel: "RIO-251A",
+		age: "6yrs 7mos",
+		proof: "113.2",
 		finish: "",
 		mashbill: "",
 		source: "",
@@ -5116,6 +5117,26 @@ var items = [
 		retail: "",
 		image: "",
 		label: "warped-l.jpg"
+	},
+
+	{
+		id: 259,
+		name: "Batch Tucson",
+		type: "",
+		series: "Single Barrel",
+		barrel: "AMB-R-01",
+		age: "5yrs 11mos",
+		proof: "114.48",
+		finish: "Amburana",
+		mashbill: "",
+		source: "",
+		distilled: "",
+		bottled: "",
+		price: "",
+		state: "",
+		retail: "",
+		image: "",
+		label: "amb-r-01-l.jpg"
 	}
 ];
 
