@@ -5122,7 +5122,7 @@ var items = [
 	{
 		id: 259,
 		name: "Batch Tucson",
-		type: "",
+		type: "Rye",
 		series: "Single Barrel",
 		barrel: "AMB-R-01",
 		age: "5yrs 11mos",
