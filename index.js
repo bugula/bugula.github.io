@@ -1475,7 +1475,7 @@ var items = [
 		price: "",
 		state: "DC",
 		retail: "",
-		image: "",
+		image: "rio-262.jpg",
 		label: "rio-262-l.jpg"
 	},
 
@@ -5137,6 +5137,48 @@ var items = [
 		retail: "",
 		image: "",
 		label: "amb-r-01-l.jpg"
+	},
+
+
+	{
+		id: 260,
+		name: "Big Corks Germantown",
+		type: "Bourbon",
+		series: "Single Barrel",
+		barrel: "IRT-1",
+		age: "6yrs 3mos",
+		proof: "119.52",
+		finish: "",
+		mashbill: "60/36/4",
+		source: "MGP",
+		distilled: "",
+		bottled: "",
+		price: "",
+		state: "",
+		retail: "",
+		image: "",
+		label: ""
+	},
+
+
+	{
+		id: 261,
+		name: "Big Corks Germantown",
+		type: "Bourbon",
+		series: "Single Barrel",
+		barrel: "RIO-217",
+		age: "6yrs 8mos",
+		proof: "112.06",
+		finish: "",
+		mashbill: "75/21/4",
+		source: "MGP",
+		distilled: "",
+		bottled: "",
+		price: "",
+		state: "",
+		retail: "",
+		image: "",
+		label: ""
 	}
 ];
 
@@ -5169,20 +5211,20 @@ if (release) {
                     ${item.image ? `<img src="images/${item.image}" height="300">` : ""}
                 </div>
                 <div>
-					<h2>${item.name}</h2>
-                    Barrel: ${item.barrel}<br>
-                    Type: ${item.type}<br>
-                    Finish: ${item.finish}<br>
-					Age: ${item.age}<br>
-					Proof: ${item.proof}<br>
-					Mashbill: ${item.mashbill}<br>
-					Source: ${item.source}<br>
-					Distilled on: ${item.distilled}<br>
-					Bottled on: ${item.bottled}<br>
-					Retail price: ${item.price}<br>
-					Release state: ${item.state}<br>
-					Retail partner: ${item.retail}
-                </div>
+        			<h2>${item.name}</h2>
+        			${item.barrel ? `Barrel: ${item.barrel}<br>` : ""}
+        			${item.type ? `Type: ${item.type}<br>` : ""}
+        			${item.finish ? `Finish: ${item.finish}<br>` : ""}
+        			${item.age ? `Age: ${item.age}<br>` : ""}
+       				${item.proof ? `Proof: ${item.proof}<br>` : ""}
+        			${item.mashbill ? `Mashbill: ${item.mashbill}<br>` : ""}
+        			${item.source ? `Source: ${item.source}<br>` : ""}
+        			${item.distilled ? `Distilled on: ${item.distilled}<br>` : ""}
+        			${item.bottled ? `Bottled on: ${item.bottled}<br>` : ""}
+        			${item.price ? `Retail price: ${item.price}<br>` : ""}
+        			${item.state ? `Release state: ${item.state}<br>` : ""}
+        			${item.retail ? `Retail partner: ${item.retail}` : ""}
+    			</div>
         `;
         itemList.appendChild(itemDiv);
     }
