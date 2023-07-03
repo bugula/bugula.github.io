@@ -48,7 +48,7 @@
 	width: 100%;
 }
 
-.card-image img:hover {
+.card:hover .card-image img {
 	filter: brightness(80%);
 }
 
@@ -220,8 +220,40 @@ select {
 	visibility: visible;
 }
 
+.filterButtonContainer {
+	display: flex;
+	justify-content: space-between;
+	width:100%;
+}
+
+.filterButton {
+	display: inline-block;
+	width: 30%;
+	box-sizing: border-box;
+	text-align: center;
+	background-color: #4CAF50;
+	color: white;
+	padding: 15px 0;
+	border: none;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.filterButton:hover {
+	background-color: #3e8e41;
+}
+
+.filterButton.selected {
+	background-color: #4CAF50;
+	color: white;
+}
 
 
+
+
+
+
+/* Utility Bar */
 .utilityBar {
 	top: 0;
 	left: 0;
@@ -262,7 +294,7 @@ select {
 }
 
 body {
-	background-color: #ece1c8;
+	background-color: #FFF;
 	width: 100%;
 	margin: 0;
 	padding: 0;
